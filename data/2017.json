@@ -1,0 +1,73 @@
+{
+  "anime": {
+    "21856": "My Hero Academia S2",
+    "20958": "Attack on Titan S2",
+    "21613": "Youjo Senki",
+    "97886": "Kekkai Sensen & BEYOND",
+    "97980": "Re:CREATORS",
+    "87539": "The Dragon Dentist"
+  },
+  "sections": [
+    {
+      "name": "Genre Awards",
+      "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
+      "icon": "img/assets/genreawards.png",
+      "awards": [
+        {
+          "name": "Best Action Anime",
+          "link": "",
+          "nominees": [
+            {
+              "id": 21856,
+              "altimg": "",
+              "altname": "",
+              "public": 1,
+              "jury": 1,
+              "writeup": ""
+            },
+            {
+              "id": 20958,
+              "altimg": "",
+              "altname": "",
+              "public": 2,
+              "jury": 5,
+              "writeup": ""
+            },
+            {
+              "id": 21613,
+              "altimg": "",
+              "altname": "",
+              "public": 3,
+              "jury": 2,
+              "writeup": ""
+            },
+            {
+              "id": 97886,
+              "altimg": "",
+              "altname": "",
+              "public": 4,
+              "jury": 3,
+              "writeup": ""
+            },
+            {
+              "id": 97980,
+              "altimg": "",
+              "altname": "",
+              "public": 5,
+              "jury": 6,
+              "writeup": ""
+            },
+            {
+              "id": 87539,
+              "altimg": "",
+              "altname": "",
+              "public": 6,
+              "jury": 4,
+              "writeup": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
