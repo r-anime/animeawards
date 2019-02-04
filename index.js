@@ -51,10 +51,10 @@ Vue.component('awards-category', {
             return `category-${this.$root.slugify(this.award.name)}`;
         },
         nomPublicOrder() {
-            return this.award.nominees.sort((a,b) => { return a.public - b.public;});
+            return this.award.nominees.sort((a,b) => { return a.public<b.public;});
         },
         nomJuryOrder() {
-            return this.award.nominees.sort((a,b) => { return a.jury - b.jury;});
+            return this.award.nominees.sort((a,b) => { return a.jury<b.jury;});
         }
     },
     template: `
@@ -73,7 +73,7 @@ Vue.component('awards-category', {
                 </div>
                 <div class="categoryNominationContainer">
                     <div class="categoryNominationItem"
-                        v-for="nom in nomJuryOrder" 
+                        v-for="nom in nomPublicOrder"
                     >
                         <category-item-image
                             :nominee="nom"
