@@ -6,10 +6,10 @@ Vue.component('section-nav', {
         }
     },
     template: `
-		<ul id="awardSectionNav">
+        <ul id="awardSectionNav">
             <li class="awardSectionNavLink" v-for="section in sections"><a :href="linkFor(section)">{{section.name}}</a></li>
         </ul>
-	`
+    `
 });
 
 Vue.component('awards-section', {
@@ -38,10 +38,10 @@ Vue.component('awards-section', {
             </div>
             <awards-category
                 v-for="award in section.awards"
-                :award="award" 
+                :award="award"
             />
         </div>
-	`
+    `
 });
 
 Vue.component('awards-category', {
@@ -82,7 +82,7 @@ Vue.component('awards-category', {
                 </div>
             </div>
         </div>
-	`
+    `
 });
 
 Vue.component('award-winners', {
@@ -113,7 +113,7 @@ Vue.component('award-winners', {
                 />
             </div>
         </div>
-	`
+    `
 });
 
 Vue.component('award-winners-label', {
@@ -155,7 +155,7 @@ Vue.component('award-winners-label', {
                 </div>
             </div>
         </div>
-	`
+    `
 });
 
 Vue.component('category-item-image', {
@@ -174,7 +174,7 @@ Vue.component('category-item-image', {
         <div class="categoryItemImage" :style="backgroundStyle" @click="showWriteUp">
 
         </div>
-	`
+    `
 });
 
 Vue.component('modal', {
@@ -266,10 +266,10 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
         this.loadData(2017);
     },
     template: `
-		<div id="animeawardsContainer">
-			<section-nav :sections="sections"/>
-			<div id="awardYearNav">
-			    
+        <div id="animeawardsContainer">
+            <section-nav :sections="sections"/>
+            <div id="awardYearNav">
+
             </div>
             <div id="awardTitle">
                 <img class="headerIcon" alt="/r/animeawards 2018" src="img/assets/titlecard.jpg" />
@@ -277,8 +277,8 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
             <div id="contentContainer">
                 <awards-section
                     v-for="section in sections"
-					:section="section"
-				/>
+                    :section="section"
+                />
             </div>
             <modal
                 :show="showModal"
