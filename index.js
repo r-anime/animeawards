@@ -160,21 +160,73 @@ Vue.component('award-winners-label', {
 
 Vue.component('category-item-image', {
     props: ['nominee'],
+    methods:{
+        showWriteUp(){
+            this.$root.showWriteUpModal(this.nominee);
+        }
+    },
     computed: {
         backgroundStyle() {
             return `background-image: url(img/${this.nominee.id}.jpg)`;
         }
     },
     template: `
-        <div class="categoryItemImage" :style="backgroundStyle">
+        <div class="categoryItemImage" :style="backgroundStyle" @click="showWriteUp">
 
         </div>
 	`
 });
 
+Vue.component('modal', {
+    props: ['show', 'nom'],
+    methods: {
+        close: function () {
+            this.$emit('close');
+        }
+    },
+    computed: {
+        nomName (){
+            return this.$root.getTitle(this.nom.id);
+        },
+        backgroundStyle() {
+            return `background-image: url(img/${this.nom.id}.jpg)`;
+        }
+    },
+    template: `
+         <transition name="modal">
+            <div class="modalMask" @click="close" v-show="show">
+                <div class="modalWrapper">
+                    <div class="modalContainer" :style="backgroundStyle" @click.stop>
+                        <div class="modalHeader">
+                            <div class="modalHeaderImage">
+                                
+                            </div>
+                        </div>
+                        <div class="modalBody">
+                            <h3 class="modalBodyTitle">{{nomName}}</h3>
+                            <p class="modalBodyText">
+                                {{this.nom.writeup}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </transition>
+    `
+});
+
 const app = new Vue({ // eslint-disable-line no-unused-vars
     el: '#animeawardsContainer',
     data: {
+        showModal: false,
+        activeNominee: {
+            "id": 0,
+            "altimg": "",
+            "altname": "",
+            "public": -1,
+            "jury": -1,
+            "writeup": ""
+        },
         sections: null,
         cachedData: {
             anime: {},
@@ -203,6 +255,10 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
         },
         getTitle (id) {
             return this.anime[id];
+        },
+        showWriteUpModal(nom) {
+            this.activeNominee = nom;
+            this.showModal = true;
         }
     },
     created () {
@@ -224,6 +280,11 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
 					:section="section"
 				/>
             </div>
+            <modal
+                :show="showModal"
+                :nom="activeNominee"
+                @close="showModal = false"
+            />
 		</div>
 	`
 });
