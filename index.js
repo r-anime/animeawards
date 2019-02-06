@@ -182,6 +182,15 @@ Vue.component('modal', {
     methods: {
         close: function () {
             this.$emit('close');
+        },
+        getPrettyRank(rank){
+            rank--;
+            ranks = ["Winner", "2nd Place", "3rd Place"];
+            if (rank < 3){
+                return ranks[rank];
+            } else {
+                return (rank + 1) + "th Place";
+            }
         }
     },
     computed: {
@@ -198,12 +207,15 @@ Vue.component('modal', {
                 <div class="modalWrapper">
                     <div class="modalContainer" :style="backgroundStyle" @click.stop>
                         <div class="modalHeader">
-                            <div class="modalHeaderImage">
+                            <div class="modalHeaderImage" :style="backgroundStyle" >
                                 
                             </div>
                         </div>
                         <div class="modalBody">
                             <h3 class="modalBodyTitle">{{nomName}}</h3>
+                            <div class="modalRankingContainer">
+                                {{this.getPrettyRank(this.nom.public)}}                                                        
+                            </div>
                             <p class="modalBodyText">
                                 {{this.nom.writeup}}
                             </p>
