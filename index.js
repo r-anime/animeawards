@@ -51,10 +51,10 @@ Vue.component('awards-category', {
             return `category-${this.$root.slugify(this.award.name)}`;
         },
         nomPublicOrder() {
-            return this.award.nominees.sort((a,b) => { return a.public<b.public;});
+            return this.award.nominees.sort((a,b) => { return a.public - b.public;});
         },
         nomJuryOrder() {
-            return this.award.nominees.sort((a,b) => { return a.jury<b.jury;});
+            return this.award.nominees.sort((a,b) => { return a.jury - b.jury;});
         }
     },
     template: `
@@ -214,7 +214,12 @@ Vue.component('modal', {
                         <div class="modalBody">
                             <h3 class="modalBodyTitle">{{nomName}}</h3>
                             <div class="modalRankingContainer">
-                                {{this.getPrettyRank(this.nom.public)}}                                                        
+                                <div class="modalRankingJury">
+                                    <span class="modalRankingJuryIcon"></span>Jury {{this.getPrettyRank(this.nom.jury)}}
+                                </div>      
+                                <div class="modalRankingPublic">
+                                    <span class="modalRankingPublicIcon"></span>Community Choice {{this.getPrettyRank(this.nom.public)}}
+                                </div>                                                  
                             </div>
                             <p class="modalBodyText">
                                 {{this.nom.writeup}}
