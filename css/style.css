@@ -175,11 +175,14 @@ html, body{
 
 .categorySubHeadItemText{
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 8px 16px;
 }
 
 .categorySubHeadItemTextTitle{
-    height: 52px;
+    width: inherit;
     font-size: 20px;
     color: #DCE6F2;
     font-weight: bolder;
@@ -293,7 +296,7 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .categorySwitchLabel{
