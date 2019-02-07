@@ -286,8 +286,72 @@ html, body{
 }
 
 /*
- *
+ * Slider Style
  */
+
+.categorySwitchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.categorySwitchLabel{
+    padding: 2px 8px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #DCE6F2;
+}
+
+.categorySwitch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.categorySwitch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.categorySwitchSlider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E8AA25;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.categorySwitchSlider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #DCE6F2;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .categorySwitchSlider {
+    background-color: #6F9BE4;
+}
+
+input:checked + .categorySwitchSlider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
 
 /*
  * The following styles are auto-applied to elements with

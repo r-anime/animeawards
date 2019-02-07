@@ -57,6 +57,25 @@ Vue.component('awards-category', {
             return this.award.nominees.sort((a,b) => { return a.jury - b.jury;});
         }
     },
+    methods: {
+        toggleRankingSort(event){
+            let parentContainer = event.target.parentElement.parentElement.parentElement;
+            let toggleChecked = event.target.checked;
+            let cardContainer = parentContainer.querySelector(".categoryNominationCards");
+            let cards = cardContainer.querySelectorAll("categoryNominationItem");
+
+            console.log(cards);
+
+            for (let card of cards){
+                if (toggleChecked) {
+                    card.style.order = card.getAttribute("data-public");
+                } else {
+                    card.style.order = card.getAttribute("data-jury");
+                }
+            }
+
+        }
+    },
     template: `
         <div :id="slug" class="awardDisplay">
             <h2 class="categoryHeader">{{award.name}}</h2>
@@ -70,18 +89,20 @@ Vue.component('awards-category', {
                 />
                 <div class="categoryNominationContainer">
                     <div class="categorySwitchContainer">
+                        <span class="categorySwitchLabel">Jury</span>
                         <label class="categorySwitch">
-                            <input type="checkbox">
+                            <input type="checkbox" v-on:click="toggleRankingSort">
                             <span class="categorySwitchSlider"></span>
                         </label>
+                        <span class="categorySwitchLabel">Public</span>
                     </div>
                     <div class="categoryNominationCards">
                         <div class="categoryNominationItem"
+                            :data-public="nom.public"
+                            :data-jury="nom.jury"
                             v-for="nom in nomPublicOrder"
                         >
                             <category-item-image
-                                :data-public="nom.public"
-                                :data-jury="nom.jury"
                                 :nominee="nom"
                             />
                         </div>
@@ -192,7 +213,7 @@ Vue.component('modal', {
         },
         getPrettyRank(rank){
             rank--;
-            ranks = ["Winner", "2nd Place", "3rd Place"];
+            const ranks = ["Winner", "2nd Place", "3rd Place"];
             if (rank < 3){
                 return ranks[rank];
             } else {
