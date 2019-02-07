@@ -68,16 +68,23 @@ Vue.component('awards-category', {
                     :public="nomPublicOrder[0]"
                     :jury="nomJuryOrder[0]"
                 />
-                <div class="categoryWriteUpContainer">
-
-                </div>
                 <div class="categoryNominationContainer">
-                    <div class="categoryNominationItem"
-                        v-for="nom in nomPublicOrder"
-                    >
-                        <category-item-image
-                            :nominee="nom"
-                        />
+                    <div class="categorySwitchContainer">
+                        <label class="categorySwitch">
+                            <input type="checkbox">
+                            <span class="categorySwitchSlider"></span>
+                        </label>
+                    </div>
+                    <div class="categoryNominationCards">
+                        <div class="categoryNominationItem"
+                            v-for="nom in nomPublicOrder"
+                        >
+                            <category-item-image
+                                :data-public="nom.public"
+                                :data-jury="nom.jury"
+                                :nominee="nom"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
