@@ -10,6 +10,7 @@
   "sections": [
     {
       "name": "Genre Awards",
+      "slug": "genre",
       "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
       "icon": "img/assets/genreawards.png",
       "awards": [

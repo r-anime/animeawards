@@ -7,11 +7,10 @@ Vue.component('section-nav', {
     },
     template: `
         <ul id="awardSectionNav">
-            <li class="awardSectionNavLink" v-for="section in sections"><a :href="linkFor(section)">{{section.name}}</a></li>
+            <li class="awardSectionNavLink" v-for="section in sections"><router-link :to="{ name: 'section', params: { slug: section.slug }}">{{section.name}}</router-link></li>
         </ul>
     `
 });
-
 Vue.component('awards-section', {
     props: ['section'],
     computed: {
@@ -38,12 +37,12 @@ Vue.component('awards-section', {
             </div>
             <awards-category
                 v-for="award in section.awards"
+                :key="award.name"
                 :award="award"
             />
         </div>
     `
 });
-
 Vue.component('awards-category', {
     props: ['award'],
     computed: {
@@ -80,7 +79,7 @@ Vue.component('awards-category', {
                 if (typeof cards[i]._gsTransform !== 'undefined'){
                     diffx += cards[i]._gsTransform.x;
                 }
-                TweenLite.fromTo(cards[i], 1, {x: diffx}, {x: 0});
+                TweenLite.fromTo(cards[i], .5, {x: diffx}, {x: 0, ease: Power2.easeInOut});
             }
 
         }
@@ -121,7 +120,6 @@ Vue.component('awards-category', {
         </div>
     `
 });
-
 Vue.component('award-winners', {
     props: ['public','jury'],
     template: `
@@ -152,17 +150,8 @@ Vue.component('award-winners', {
         </div>
     `
 });
-
 Vue.component('award-winners-label', {
     props: ['public','jury'],
-    computed: {
-        publicNomName (){
-            return this.$root.getTitle(this.public.id);
-        },
-        juryNomName (){
-            return this.$root.getTitle(this.jury.id);
-        }
-    },
     template: `
         <div class="categorySubHeadContainer">
             <div class="categorySubHeadItem categorySubHeadJury">
@@ -171,7 +160,9 @@ Vue.component('award-winners-label', {
                 </div>
                 <div class="categorySubHeadItemText">
                     <div class="categorySubHeadItemTextTitle">
-                        {{juryNomName}}
+                        <nominee-name
+                        :nominee="jury"
+                        ></nominee-name>
                     </div>
                     <div class="categorySubHeadItemTextSubTitle">
                         Jury Winner
@@ -184,7 +175,9 @@ Vue.component('award-winners-label', {
                 </div>
                 <div class="categorySubHeadItemText">
                     <div class="categorySubHeadItemTextTitle">
-                        {{publicNomName}}
+                        <nominee-name
+                        :nominee="public"
+                        ></nominee-name>
                     </div>
                     <div class="categorySubHeadItemTextSubTitle">
                         Public Winner
@@ -194,7 +187,6 @@ Vue.component('award-winners-label', {
         </div>
     `
 });
-
 Vue.component('category-item-image', {
     props: ['nominee'],
     methods:{
@@ -204,7 +196,12 @@ Vue.component('category-item-image', {
     },
     computed: {
         backgroundStyle() {
-            return `background-image: url(img/${this.nominee.id}.jpg)`;
+            if (this.nominee.altimg !== ""){
+                return `background-image: url(img/${this.nominee.altimg}.jpg)`;
+            }
+            else {
+                return `background-image: url(img/${this.nominee.id}.jpg)`;
+            }
         }
     },
     template: `
@@ -213,7 +210,6 @@ Vue.component('category-item-image', {
         </div>
     `
 });
-
 Vue.component('modal', {
     props: ['show', 'nom'],
     methods: {
@@ -231,11 +227,13 @@ Vue.component('modal', {
         }
     },
     computed: {
-        nomName (){
-            return this.$root.getTitle(this.nom.id);
-        },
         backgroundStyle() {
-            return `background-image: url(img/${this.nom.id}.jpg)`;
+            if (this.nom.altimg !== ""){
+                return `background-image: url(img/${this.nom.altimg}.jpg)`;
+            }
+            else {
+                return `background-image: url(img/${this.nom.id}.jpg)`;
+            }
         }
     },
     template: `
@@ -249,7 +247,12 @@ Vue.component('modal', {
                             </div>
                         </div>
                         <div class="modalBody">
-                            <h3 class="modalBodyTitle">{{nomName}}</h3>
+                            <h3 class="modalBodyTitle">
+                                <nominee-name
+                                    :nominee="nom"
+                                >
+                                </nominee-name>
+                            </h3>
                             <div class="modalRankingContainer">
                                 <div class="modalRankingJury">
                                     <span class="modalRankingJuryIcon"></span>Jury {{this.getPrettyRank(this.nom.jury)}}
@@ -269,7 +272,65 @@ Vue.component('modal', {
     `
 });
 
+Vue.component('nominee-name', {
+    props: ['nominee'],
+    template: `
+        <span v-if="nominee.altname != ''">
+            {{nominee.altname}}
+        </span>
+        <span v-else>
+            {{this.$root.getTitle(nominee.id)}}
+        </span>
+</span>
+    `
+});
+
+const AwardsSplash = {
+    template: `
+        <p>
+            Splash Page goes here, use the navbar to navigate to genre sections for now.      
+        </p>
+    `
+};
+
+const AwardsSection = {
+    props: ['slug'],
+    computed: {
+        section (){
+            for (let i = 0; i < this.$root.sections.length; i++){
+                if (this.$root.sections[i].slug === this.slug){
+                    return this.$root.sections[i];
+                }
+            }
+            return null;
+        }
+    },
+    template: `
+        <p v-if="section === null">
+            Section Invalid        
+        </p>
+        <awards-section v-else
+            :section="section"
+        >
+        </awards-section>
+    `,
+    watch: {
+        '$route' (to, from) {
+            // react to route changes...
+        }
+    }
+};
+
+
+const routes = [
+    { path: '/', name: "home", component: AwardsSplash},
+    { path: '/section/:slug', name: "section", component: AwardsSection, props: true }
+];
+const router = new VueRouter({
+    routes // short for `routes: routes`
+});
 const app = new Vue({ // eslint-disable-line no-unused-vars
+    router,
     el: '#animeawardsContainer',
     data: {
         showModal: false,
@@ -297,14 +358,14 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
             if (this.cachedData[year]) {
                 this.sections = this.cachedData.sections[year];
                 this.anime = this.cachedData.anime[year];
-                console.log('Loaded data from cache');
+                //console.log('Loaded data from cache');
                 return;
             }
             this.sections = null; // prompts loader
             fetch(`data/${year}.json`).then(res => res.json()).then(data => {
                 this.sections = this.cachedData.sections[year] = data.sections;
                 this.anime = this.cachedData.anime[year] = data.anime;
-                console.log('Loaded data via fetch and wrote to cache');
+                //console.log('Loaded data via fetch and wrote to cache');
             });
         },
         getTitle (id) {
@@ -316,7 +377,7 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
         }
     },
     created () {
-        console.log('hi im created');
+        //console.log('hi im created');
         this.loadData(2017);
     },
     template: `
@@ -329,10 +390,14 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
                 <img class="headerIcon" alt="/r/animeawards 2018" src="img/assets/titlecard.jpg" />
             </div>
             <div id="contentContainer">
-                <awards-section
-                    v-for="section in sections"
-                    :section="section"
-                />
+                <transition name="fade">
+                    <div v-if="!sections" class="contentLoading">
+                        Loading ...
+                    </div>
+                    <router-view v-else>
+                    
+                    </router-view>
+                </transition>
             </div>
             <modal
                 :show="showModal"
