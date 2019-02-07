@@ -62,16 +62,25 @@ Vue.component('awards-category', {
             let parentContainer = event.target.parentElement.parentElement.parentElement;
             let toggleChecked = event.target.checked;
             let cardContainer = parentContainer.querySelector(".categoryNominationCards");
-            let cards = cardContainer.querySelectorAll("categoryNominationItem");
+            let cards = cardContainer.querySelectorAll(".categoryNominationItem");
+            let prevLeft = [];
 
-            console.log(cards);
-
+            for (let i = 0; i < cards.length; i++){
+                prevLeft[i] = cards[i].offsetLeft;
+            }
             for (let card of cards){
                 if (toggleChecked) {
-                    card.style.order = card.getAttribute("data-public");
+                    card.style.order = card.style.webkitOrder = card.getAttribute("data-public");
                 } else {
-                    card.style.order = card.getAttribute("data-jury");
+                    card.style.order = card.style.webkitOrder = card.getAttribute("data-jury");
                 }
+            }
+            for (let i = 0; i < cards.length; i++){
+                let diffx = prevLeft[i] - cards[i].offsetLeft;
+                if (typeof cards[i]._gsTransform !== 'undefined'){
+                    diffx += cards[i]._gsTransform.x;
+                }
+                TweenLite.fromTo(cards[i], 1, {x: diffx}, {x: 0});
             }
 
         }
@@ -91,7 +100,7 @@ Vue.component('awards-category', {
                     <div class="categorySwitchContainer">
                         <span class="categorySwitchLabel">Jury</span>
                         <label class="categorySwitch">
-                            <input type="checkbox" v-on:click="toggleRankingSort">
+                            <input type="checkbox" checked="checked" v-on:click="toggleRankingSort">
                             <span class="categorySwitchSlider"></span>
                         </label>
                         <span class="categorySwitchLabel">Public</span>
@@ -284,7 +293,7 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
         },
         loadData (year) {
             year = '' + year; // Cache keys become strings, even if we pass a number
-            console.log('Loading awards data from', year)
+            console.log('Loading awards data from', year);
             if (this.cachedData[year]) {
                 this.sections = this.cachedData.sections[year];
                 this.anime = this.cachedData.anime[year];
