@@ -341,12 +341,12 @@ const AwardsSection = {
 
 const AwardsFull = {
     template: `
-        <transition name="fade">
+        <div class="awardSectionFullContainer">
             <awards-section v-for="section in this.$root.sections"
                 :section="section"
             >
             </awards-section>
-        </transition>
+        </div>
     `
 }
 
@@ -408,7 +408,7 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
     },
     created () {
         //console.log('hi im created');
-        this.loadData(2017);
+        this.loadData(2018);
     },
     template: `
         <div id="animeawardsContainer">

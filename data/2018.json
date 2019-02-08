@@ -113,7 +113,7 @@
           "link": "",
           "nominees": [
             {
-              "id": 21856,
+              "id": 0,
               "altimg": "",
               "altname": "",
               "public": 1,
@@ -127,7 +127,29 @@
           "link": "",
           "nominees": [
             {
-              "id": 21856,
+              "id": 0,
+              "altimg": "",
+              "altname": "Antarctica",
+              "public": 1,
+              "jury": 1,
+              "writeup": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Production Awards",
+      "slug": "genre",
+      "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
+      "icon": "img/assets/genreawards.png",
+      "awards": [
+        {
+          "name": "Best Action Anime",
+          "link": "",
+          "nominees": [
+            {
+              "id": 0,
               "altimg": "",
               "altname": "",
               "public": 1,
@@ -139,8 +161,8 @@
       ]
     },
     {
-      "name": "Genre Awards",
-      "slug": "genre",
+      "name": "Main Awards",
+      "slug": "main",
       "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
       "icon": "img/assets/genreawards.png",
       "awards": [
@@ -149,12 +171,12 @@
           "link": "",
           "nominees": [
             {
-              "id": 21856,
+              "id": 0,
               "altimg": "",
               "altname": "",
               "public": 1,
               "jury": 1,
-              "writeup": "Building on the strengths of the first season, My Hero Academia was the stand out action series of the year. The continued development of the main cast, both in terms of their skill sets and their characters, was well executed, though some of the supporting cast left a little to be desired. The series takes advantage of the different abilities of its characters to produce action sequences beyond just fights, leading to some of the most diverse action of the year. Stain also presented the compelling antagonist the series needed, elevating the second half with a fascinating look at the implications of heroes within the world of the series. The production values are exceptional, with terrific artwork, animation, and a soundtrack that brings the action to life. Put simply, the jury found that no other action series did as many things as well as My Hero Academia this year. It wasn't the unanimous number one choice, but a majority had the series in the top spot, and every juror had the series in their Top 3. Building on the strengths of the first season, My Hero Academia was the stand out action series of the year. The continued development of the main cast, both in terms of their skill sets and their characters, was well executed, though some of the supporting cast left a little to be desired. The series takes advantage of the different abilities of its characters to produce action sequences beyond just fights, leading to some of the most diverse action of the year. Stain also presented the compelling antagonist the series needed, elevating the second half with a fascinating look at the implications of heroes within the world of the series. The production values are exceptional, with terrific artwork, animation, and a soundtrack that brings the action to life. Put simply, the jury found that no other action series did as many things as well as My Hero Academia this year. It wasn't the unanimous number one choice, but a majority had the series in the top spot, and every juror had the series in their Top 3."
+              "writeup": ""
             }
           ]
         }
