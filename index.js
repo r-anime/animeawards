@@ -235,6 +235,9 @@ Vue.component('modal', {
             } else {
                 return (rank + 1) + "th Place";
             }
+        },
+        getMarkDown(txt){
+            return MarkDownIt.render(txt);
         }
     },
     computed: {
@@ -272,9 +275,8 @@ Vue.component('modal', {
                                     <span class="modalRankingPublicIcon"></span>Community Choice {{this.getPrettyRank(this.nom.public)}}
                                 </div>                                                  
                             </div>
-                            <p class="modalBodyText">
-                                {{this.nom.writeup}}
-                            </p>
+                            <div class="modalBodyText" v-html="getMarkDown(this.nom.writeup)">
+                            </div>
                         </div>
                     </div>
                 </div>
