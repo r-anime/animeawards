@@ -7,7 +7,9 @@ Vue.component('section-nav', {
     },
     template: `
         <ul id="awardSectionNav">
+            <li class="awardSectionNavLink" ><router-link :to="{ name: 'home'}">Home</router-link></li>
             <li class="awardSectionNavLink" v-for="section in sections"><router-link :to="{ name: 'section', params: { slug: section.slug }}">{{section.name}}</router-link></li>
+            <li class="awardSectionNavLink" ><router-link :to="{ name: 'full'}">View All</router-link></li>
         </ul>
     `
 });
@@ -58,7 +60,7 @@ Vue.component('awards-category', {
     },
     methods: {
         toggleRankingSort(event){
-            let parentContainer = event.target.parentElement.parentElement.parentElement;
+            let parentContainer = event.target.parentElement.parentElement.parentElement.parentElement;
             let toggleChecked = event.target.checked;
             let cardContainer = parentContainer.querySelector(".categoryNominationCards");
             let cards = cardContainer.querySelectorAll(".categoryNominationItem");
@@ -96,13 +98,22 @@ Vue.component('awards-category', {
                     :jury="nomJuryOrder[0]"
                 />
                 <div class="categoryNominationContainer">
-                    <div class="categorySwitchContainer">
-                        <span class="categorySwitchLabel">Jury</span>
-                        <label class="categorySwitch">
-                            <input type="checkbox" checked="checked" v-on:click="toggleRankingSort">
-                            <span class="categorySwitchSlider"></span>
-                        </label>
-                        <span class="categorySwitchLabel">Public</span>
+                    <div class="categoryNominationHeader">
+                        <h3 class="categoryNominationTitle">
+                            Nominees
+                        </h3>
+                        <div class="categorySwitchContainer">
+                            <span class="categorySwitchLabel">
+                                <span class="modalRankingJuryIcon"></span>
+                            </span>
+                            <label class="categorySwitch">
+                                <input type="checkbox" checked="checked" v-on:click="toggleRankingSort">
+                                <span class="categorySwitchSlider"></span>
+                            </label>
+                            <span class="categorySwitchLabel">
+                                <span class="modalRankingPublicIcon"></span>
+                            </span>
+                        </div>
                     </div>
                     <div class="categoryNominationCards">
                         <div class="categoryNominationItem"
@@ -281,7 +292,14 @@ Vue.component('nominee-name', {
         <span v-else>
             {{this.$root.getTitle(nominee.id)}}
         </span>
-</span>
+    `
+});
+
+Vue.component('awards-footer', {
+    template: `
+        <footer>
+			<h2>Special thanks to the mods, volunteers, and community of <a href="https://reddit.com/r/anime">r/anime!</a><b></b></h2>
+		</footer>
     `
 });
 
@@ -321,10 +339,22 @@ const AwardsSection = {
     }
 };
 
+const AwardsFull = {
+    template: `
+        <transition name="fade">
+            <awards-section v-for="section in this.$root.sections"
+                :section="section"
+            >
+            </awards-section>
+        </transition>
+    `
+}
+
 
 const routes = [
     { path: '/', name: "home", component: AwardsSplash},
-    { path: '/section/:slug', name: "section", component: AwardsSection, props: true }
+    { path: '/full', name: "full", component: AwardsFull},
+    { path: '/:slug', name: "section", component: AwardsSection, props: true }
 ];
 const router = new VueRouter({
     routes // short for `routes: routes`
