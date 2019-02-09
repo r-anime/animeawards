@@ -226,7 +226,7 @@ Vue.component('category-item-image', {
     computed: {
         backgroundStyle() {
             if (this.nominee.altimg !== ""){
-                return `background-image: url(img/${this.nominee.altimg}.jpg)`;
+                return `background-image: url(img/${this.nominee.altimg})`;
             }
             else {
                 return `background-image: url(img/${this.nominee.id}.jpg)`;
@@ -258,7 +258,7 @@ Vue.component('modal', {
     computed: {
         backgroundStyle() {
             if (this.nom.altimg !== ""){
-                return `background-image: url(img/${this.nom.altimg}.jpg)`;
+                return `background-image: url(img/${this.nom.altimg})`;
             }
             else {
                 return `background-image: url(img/${this.nom.id}.jpg)`;
