@@ -37,15 +37,54 @@ html, body{
 }
 
 /* Content Headers */
+#animeawardsContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 #contentContainer{
     margin: 0 auto;
     width: 800px;
-    min-height: calc(70vh - 60px);
+    flex-grow: 1;
 }
 
 #awardTitle{
     margin: 10px auto;
     width: 720px;
+}
+
+/*
+ * Splash
+ */
+
+.awardsSplashContainer{
+    display: flex;
+    margin-top: 100px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.awardsSplashItem{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.awardsSplashImg{
+    width: 120px;
+    height: 100px;
+}
+
+.awardsSplashTitle{
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #DCE6F2;
 }
 
 .headerIcon{
@@ -293,9 +332,8 @@ footer a{
 .modalBody {
     flex-grow: 1;
     color: #DCE6F2;
-    padding: 30px;
     background: #191C23;
-
+    padding: 40px;
     scrollbar-width: thin;
     overflow: auto;
 }
@@ -305,14 +343,14 @@ footer a{
     font-size: 32px;
     font-weight: 100;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
 }
 
 .modalRankingContainer{
     display: flex;
     font-size: 14px;
     font-weight: 900;
-    margin: 5px 0 20px;
+    margin: 5px 10px 20px;
 }
 
 .modalRankingJury, .modalRankingPublic{

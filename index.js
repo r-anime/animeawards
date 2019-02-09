@@ -322,9 +322,16 @@ Vue.component('awards-footer', {
 
 const AwardsSplash = {
     template: `
-        <p>
-            Splash Page goes here, use the navbar to navigate to genre sections for now.      
-        </p>
+        <div class="awardsSplashContainer">
+            <router-link v-for="section in this.$root.sections" :to="{ name: 'section', params: { slug: section.slug }}">
+                <div class="awardsSplashItem">
+                    <img class="awardsSplashImg" :alt="section.name" :src="section.icon"/>
+                    <div class="awardsSplashTitle">
+                        {{section.name}}
+                    </div>
+                </div>
+            </router-link>
+        </div>
     `
 };
 
