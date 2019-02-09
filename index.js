@@ -83,12 +83,14 @@ Vue.component('awards-category', {
                 }
                 TweenLite.fromTo(cards[i], .5, {x: diffx}, {x: 0, ease: Power2.easeInOut});
             }
-
+        },
+        showCatInfo(){
+            this.$root.showCatModal(this.award);
         }
     },
     template: `
         <div :id="slug" class="awardDisplay">
-            <h2 class="categoryHeader">{{award.name}}</h2>
+            <h2 class="categoryHeader" @click="showCatInfo">{{award.name}}</h2>
                 <award-winners
                     :public="nomPublicOrder[0]"
                     :jury="nomJuryOrder[0]"
@@ -305,7 +307,33 @@ Vue.component('modal', {
         </transition>
     `
 });
-
+Vue.component('modal-category', {
+    props: ['show', 'category'],
+    methods: {
+        close: function () {
+            this.$emit('close');
+        },
+    },
+    template: `
+         <transition name="modal">
+            <div class="modalMask" @click="close" v-show="show">
+                <div class="modalWrapper">
+                    <div class="modalContainer" @click.stop>
+                        <div class="modalBody">
+                            <h3 class="modalBodyTitle">
+                                {{category.name}}
+                            </h3>
+                            <div class="modalBodyText" v-if="this.category.blurb" v-html="this.$root.getMarkDown(this.category.blurb)">
+                            </div>
+                            <div class="modalBodyStats" v-if="this.category.table" v-html="this.$root.getMarkDown(this.category.table)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </transition>
+    `
+});
 Vue.component('nominee-name', {
     props: ['nominee'],
     template: `
@@ -317,7 +345,6 @@ Vue.component('nominee-name', {
         </span>
     `
 });
-
 Vue.component('awards-footer', {
     template: `
         <footer>
@@ -394,6 +421,7 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
     el: '#animeawardsContainer',
     data: {
         showModal: false,
+        showCategoryModal: false,
         activeNominee: {
             "id": 0,
             "altimg": "",
@@ -401,6 +429,13 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
             "public": -1,
             "jury": -1,
             "writeup": ""
+        },
+        activeCategory: {
+            "name": "",
+            "link": "",
+            "table": "",
+            "blurb": "",
+            "nominees": []
         },
         sections: null,
         cachedData: {
@@ -435,6 +470,10 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
             this.activeNominee = nom;
             this.showModal = true;
         },
+        showCatModal(cat) {
+            this.activeCategory = cat;
+            this.showCategoryModal = true;
+        },
         getMarkDown(txt){
             return MarkDownIt.render(txt);
         }
@@ -466,6 +505,11 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
                 :show="showModal"
                 :nom="activeNominee"
                 @close="showModal = false"
+            />
+            <modal-category
+                :show="showCategoryModal"
+                :category="activeCategory"
+                @close="showCategoryModal = false"
             />
             <awards-footer></awards-footer>
 		</div>

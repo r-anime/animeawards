@@ -65,10 +65,10 @@ html, body{
 
 .awardsSplashContainer{
     display: flex;
-    margin-top: 100px;
     width: 800px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .awardsSplashItem{
