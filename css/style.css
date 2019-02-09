@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('gothic.ttf'); /* IE9 Compat Modes */
+}
+
 /* Basic Styling */
 *{
     margin: 0;
@@ -6,7 +11,7 @@
 
 html, body{
     background-color: #1B1E25;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Century Gothic', 'CenturyGothic', 'Nanum Gothic', sans-serif;
 }
 
 /* Navigation */
@@ -75,6 +80,15 @@ html, body{
     margin: 10px;
 }
 
+.awardsSplashContainer a{
+    text-decoration: none;
+    transition: background-color 300ms;
+}
+
+.awardsSplashContainer a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .awardsSplashImg{
     width: 120px;
     height: 100px;
@@ -87,6 +101,8 @@ html, body{
     color: #DCE6F2;
 }
 
+
+
 .headerIcon{
     width: inherit;
 }
@@ -94,6 +110,7 @@ html, body{
 .awardSectionHeader{
     margin: 50px auto 0;
     width: 768px;
+    padding-bottom: 20px;
 }
 
 .awardSectionBlurb{
@@ -113,7 +130,6 @@ html, body{
 
 .sectionHeader{
     border: 0 #000000 solid;
-    border-bottom: 1px #E8AA25 solid;
     color: #E8AA25;
     font-size: 42px;
     letter-spacing: 2px;
@@ -121,7 +137,41 @@ html, body{
     text-align: center;
 }
 
+.sectionHeader:after{
+    height: 1px;
+    width: 100%;
+    content:'';
+
+    display: block;
+    margin: 10px auto;
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(232, 170, 37, 1), rgba(0, 0, 0, 0));
+}
+
 /* Main Content */
+
+.awardDisplay{
+    padding-bottom: 0px;
+}
+
+.awardDisplay:after{
+    height: 1px;
+    width: 50%;
+    content:'';
+
+    display: block;
+    margin: 50px auto;
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(232, 170, 37, 1), rgba(0, 0, 0, 0));
+}
+
+.awardDisplay:last-child:after{
+    height: 0;
+    width: 0;
+    content:'';
+
+    background: transparent;
+}
 
 .categoryHeader{
     color: #E8AA25;
