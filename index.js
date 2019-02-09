@@ -135,7 +135,7 @@ Vue.component('award-winners', {
     props: ['public','jury'],
     template: `
         <div
-            v-if="public.id == jury.id"
+            v-if="public.jury === public.public"
             class="categoryWinnerContainer"
         >
             <div class="categoryWinnerItem categoryWinnerPublic categoryWinnerJury">
@@ -164,7 +164,7 @@ Vue.component('award-winners', {
 Vue.component('award-winners-label', {
     props: ['public','jury'],
     template: `
-        <div class="categorySubHeadContainer" v-if="public.id !== jury.id">
+        <div class="categorySubHeadContainer" v-if="public.jury !== public.public">
             <div class="categorySubHeadItem categorySubHeadJury">
                 <div class="categorySubHeadItemIcon">
                     <img alt="laurels" src="img/assets/jury.png" />
