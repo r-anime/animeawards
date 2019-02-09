@@ -26,13 +26,13 @@ html, body{
 }
 
 #awardSectionNav .awardSectionNavLink{
-    font-size: 21px;
+    font-size: 16px;
     letter-spacing: 1px;
     padding: 18px 30px;
 }
 
 #awardSectionNav .awardSectionNavLink a{
-    color: #DCE6F2;
+    color: #a6bbd6;
     text-decoration: none;
 }
 
@@ -55,20 +55,67 @@ html, body{
 }
 
 #awardTitle{
-    margin: 10px auto;
-    width: 720px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+#awardTitle img.headerTitle{
+    height: 155px;
+    width: 760px;
+    text-align:center;
+    position: absolute;
+    bottom: 0;
+}
+
+#awardTitle img.headerIcon{
+    width: 300px;
+    text-align:center;
+    position: absolute;
+    bottom: 0;
+}
+
+.awardTitleSplash{
+    background-image: radial-gradient(#283D63, #4d8fe3);
 }
 
 /*
  * Splash
  */
 
-.awardsSplashContainer{
+.awardsSplashContent{
     display: flex;
     width: 800px;
+    padding: 20px;
+}
+
+.awardsWelcomeText{
+    color: #DCE6F2;
+    flex-grow: 3;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin: 10px;
+}
+
+.awardsWelcomeText h1{
+    padding: 10px;
+}
+
+.awardsWelcomeText p{
+    padding: 10px;
+}
+
+.awardsSplashContainer{
+    display: flex;
+    flex-grow: 1;
+    width: 200px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .awardsSplashItem{
@@ -82,6 +129,7 @@ html, body{
 
 .awardsSplashContainer a{
     text-decoration: none;
+    text-align: center;
     transition: background-color 300ms;
 }
 
@@ -98,7 +146,7 @@ html, body{
     padding: 8px;
     font-size: 20px;
     font-weight: 900;
-    color: #DCE6F2;
+    color: #A6BBD6;
 }
 
 
@@ -114,7 +162,7 @@ html, body{
 }
 
 .awardSectionBlurb{
-    color: #DCE6F2;
+    color: #A6BBD6;
     margin: 10px auto;
     padding: 10px 80px;
 }
@@ -179,7 +227,7 @@ html, body{
 
 .awardHonorableMentions h4{
     text-align: center;
-    color: #DCE6F2;
+    color: #A6BBD6;
     padding: 16px;
     font-size: 20px;
 }
@@ -192,7 +240,7 @@ html, body{
     display: block;
     margin: 20px auto 5px;
 
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #DCE6F2, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #A6BBD6, rgba(0, 0, 0, 0));
 }
 
 .awardHonorableMentions ul{
@@ -207,7 +255,7 @@ html, body{
 .awardHonorableMentions ul li{
     flex-grow: 1;
     padding: 2px;
-    color: #DCE6F2;
+    color: #A6BBD6;
 }
 
 .categoryHeader{
@@ -259,7 +307,7 @@ html, body{
     align-self: flex-start;
     padding: 4px 20px;
     padding-top: 8px;
-    color: #DCE6F2;
+    color: #A6BBD6;
     font-size: 24px;
 }
 
@@ -341,7 +389,7 @@ html, body{
 .categorySubHeadItemTextTitle{
     width: inherit;
     font-size: 20px;
-    color: #DCE6F2;
+    color: #A6BBD6;
     font-weight: bolder;
 }
 
@@ -403,7 +451,7 @@ footer a{
 }
 
 .modalHeader {
-    color: #DCE6F2;
+    color: #A6BBD6;
     height: inherit;
 }
 
@@ -418,7 +466,7 @@ footer a{
 
 .modalBody {
     flex-grow: 1;
-    color: #DCE6F2;
+    color: #A6BBD6;
     background: #191C23;
     padding: 40px;
     scrollbar-width: thin;
@@ -426,7 +474,7 @@ footer a{
 }
 
 .modalBodyTitle{
-    color: #DCE6F2;
+    color: #A6BBD6;
     font-size: 32px;
     font-weight: 100;
     margin: 0;
@@ -483,7 +531,7 @@ footer a{
 .categorySwitchLabel{
     padding: 2px 8px;
     text-align: center;
-    color: #DCE6F2;
+    color: #A6BBD6;
 }
 
 .categorySwitch {
@@ -519,7 +567,7 @@ footer a{
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: #DCE6F2;
+    background-color: #A6BBD6;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;

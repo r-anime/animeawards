@@ -355,16 +355,45 @@ Vue.component('awards-footer', {
 
 const AwardsSplash = {
     template: `
-        <div class="awardsSplashContainer">
-            <router-link v-for="section in this.$root.sections" :to="{ name: 'section', params: { slug: section.slug }}">
-                <div class="awardsSplashItem">
-                    <img class="awardsSplashImg" :alt="section.name" :src="section.icon"/>
-                    <div class="awardsSplashTitle">
-                        {{section.name}}
-                    </div>
+        <div class="awardsSplashBody">
+            <div id="awardTitle" class="awardTitleSplash">
+                <img class="headerTitle" alt="/r/animeawards 2018" src="img/assets/titlecard-snooless.png" />
+                <img class="headerIcon" alt="/r/animeawards 2018" src="img/assets/snoowink.gif" />
+            </div>
+            <div id="contentContainer" class="awardsSplashContent">
+                <div class="awardsSplashContainer">
+                    <router-link v-for="section in this.$root.sections" :to="{ name: 'section', params: { slug: section.slug }}">
+                        <div class="awardsSplashItem">
+                            <img class="awardsSplashImg" :alt="section.name" :src="section.icon"/>
+                            <div class="awardsSplashTitle">
+                                {{section.name}}
+                            </div>
+                        </div>
+                    </router-link>
                 </div>
-            </router-link>
-        </div>
+                <div class="awardsWelcomeText">
+                    <h1>Welcome!</h1>
+                    <p>
+                        Welcome, one and all, to the 2018 r/Anime Awards results! Over the past few months we've laid the groundwork for our annual selection of the best shows of the year. We've recruited our jurors, cruelly subjected them to innumerable episodes of anime, and simultaneously opened it up to you, the community of /r/anime. At long last, we present the fruits of our collective labor!
+                    </p>
+                    <p>
+                        This site contains all of the info about the winners and rankings for the 27 award categories featured this year. These are separated into over-arching category groups: genre awards, character awards, production awards, and main awards. On each of these pages you will find the winner and runners-up for each category, as well as a slider with which you can compare the results of the community vote to the rankings awarded by the category's jury.
+                    </p>
+                    <p>
+                        For more detailed result statistics and other info, check out this [reddit thread].
+                    </p>
+                    <p>
+                        To watch a copy of the livestream in which we revealed and discussed the results with guests, click [here].
+                    </p>
+                    <p>
+                        For answers to commonly asked questions about our process, check out the [FAQ].
+                    </p>
+                    <p>
+                        With any other comments or questions, contact us at redditanimeawards@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>        
     `
 };
 
@@ -381,13 +410,15 @@ const AwardsSection = {
         }
     },
     template: `
-        <p v-if="section === null">
-            Section Invalid        
-        </p>
-        <awards-section v-else
-            :section="section"
-        >
-        </awards-section>
+        <div id="contentContainer">
+            <p v-if="section === null">
+                Section Invalid        
+            </p>
+            <awards-section v-else
+                :section="section"
+            >
+            </awards-section>
+        </div>
     `,
     watch: {
         '$route' (to, from) {
@@ -398,7 +429,10 @@ const AwardsSection = {
 
 const AwardsFull = {
     template: `
-        <div class="awardSectionFullContainer">
+        <div id="contentContainer">
+            <div id="awardTitle">
+                <img class="headerIcon" alt="/r/animeawards 2018" src="img/assets/titlecard.jpg" />
+            </div>
             <awards-section v-for="section in this.$root.sections"
                 :section="section"
             >
@@ -486,21 +520,15 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
         <div id="animeawardsContainer">
             <section-nav :sections="sections"/>
             <div id="awardYearNav">
-
             </div>
-            <div id="awardTitle">
-                <img class="headerIcon" alt="/r/animeawards 2018" src="img/assets/titlecard.jpg" />
-            </div>
-            <div id="contentContainer">
-                <transition name="fade">
-                    <div v-if="!sections" class="contentLoading">
-                        Loading ...
-                    </div>
-                    <router-view v-else>
-                    
-                    </router-view>
-                </transition>
-            </div>
+            <transition name="fade">
+                <div v-if="!sections" class="contentLoading">
+                    Loading ...
+                </div>
+                <router-view v-else>
+                
+                </router-view>
+            </transition>
             <modal
                 :show="showModal"
                 :nom="activeNominee"
