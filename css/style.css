@@ -40,6 +40,7 @@ html, body{
 #contentContainer{
     margin: 0 auto;
     width: 800px;
+    min-height: calc(70vh - 60px);
 }
 
 #awardTitle{
@@ -181,12 +182,18 @@ html, body{
 
 .categorySubHeadContainer{
     display: flex;
+    justify-content: center;
 }
 
 .categorySubHeadItem {
     flex-grow: 1;
+    max-width: 50%;
     padding: 40px 16px;
     display: flex;
+}
+
+.categorySubHeadItem.categorySubHeadPublic.categorySubHeadJury{
+    flex-grow: 0;
 }
 
 .categorySubHeadItemIcon {
@@ -216,6 +223,24 @@ html, body{
     font-weight: bolder;
     font-size: 16px;
     color: #E8AA25;
+}
+
+/* footer style*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6F9BE4;
+    color: #DCE6F2;
+    padding: 16px;
+    margin-top: 48px;
+}
+
+footer a{
+    color: #DCE6F2;
+    font-weight: 900;
+    /*text-decoration: none;*/
 }
 
 /* modal styles */

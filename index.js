@@ -25,16 +25,16 @@ Vue.component('awards-section', {
             <div class="awardSectionHeader">
                 <div class="sectionIconContainer"><img class="sectionIcon" :alt="section.name" :src="section.icon" /></div>
                 <h1 class="sectionHeader">{{section.name}}</h1>
-                <p
+                <div
                     v-if="typeof section.blurb === 'string'"
                     class="awardSectionBlurb"
-                    v-html="section.blurb"
+                    v-html="this.$root.getMarkDown(section.blurb)"
                 />
-                <p
+                <div
                     v-else
                     v-for="blurb in section.blurb"
                     class="awardSectionBlurb"
-                    v-html="blurb"
+                    v-html="this.$root.getMarkDown(blurb)"
                 />
             </div>
             <awards-category
@@ -164,7 +164,7 @@ Vue.component('award-winners', {
 Vue.component('award-winners-label', {
     props: ['public','jury'],
     template: `
-        <div class="categorySubHeadContainer">
+        <div class="categorySubHeadContainer" v-if="public.id !== jury.id">
             <div class="categorySubHeadItem categorySubHeadJury">
                 <div class="categorySubHeadItemIcon">
                     <img alt="laurels" src="img/assets/jury.png" />
@@ -196,6 +196,24 @@ Vue.component('award-winners-label', {
                 </div>
             </div>
         </div>
+        <div class="categorySubHeadContainer" v-else>
+            <div class="categorySubHeadItem categorySubHeadPublic categorySubHeadJury">
+                <div class="categorySubHeadItemIcon">
+                    <img alt="laurels" src="img/assets/pubjury.png" />
+                </div>
+                <div class="categorySubHeadItemText">
+                    <div class="categorySubHeadItemTextTitle">
+                        <nominee-name
+                        :nominee="public"
+                        ></nominee-name>
+                    </div>
+                    <div class="categorySubHeadItemTextSubTitle">
+                        Consensus Winner
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     `
 });
 Vue.component('category-item-image', {
@@ -235,9 +253,6 @@ Vue.component('modal', {
             } else {
                 return (rank + 1) + "th Place";
             }
-        },
-        getMarkDown(txt){
-            return MarkDownIt.render(txt);
         }
     },
     computed: {
@@ -275,7 +290,7 @@ Vue.component('modal', {
                                     <span class="modalRankingPublicIcon"></span>Community Choice {{this.getPrettyRank(this.nom.public)}}
                                 </div>                                                  
                             </div>
-                            <div class="modalBodyText" v-html="getMarkDown(this.nom.writeup)">
+                            <div class="modalBodyText" v-html="this.$root.getMarkDown(this.nom.writeup)">
                             </div>
                         </div>
                     </div>
@@ -300,7 +315,7 @@ Vue.component('nominee-name', {
 Vue.component('awards-footer', {
     template: `
         <footer>
-			<h2>Special thanks to the mods, volunteers, and community of <a href="https://reddit.com/r/anime">r/anime!</a><b></b></h2>
+			<h2>Special thanks to the mods, volunteers, and community of <a href="https://reddit.com/r/anime">r/anime!</a></h2>
 		</footer>
     `
 });
@@ -406,6 +421,9 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
         showWriteUpModal(nom) {
             this.activeNominee = nom;
             this.showModal = true;
+        },
+        getMarkDown(txt){
+            return MarkDownIt.render(txt);
         }
     },
     created () {
@@ -436,6 +454,7 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
                 :nom="activeNominee"
                 @close="showModal = false"
             />
+            <awards-footer></awards-footer>
 		</div>
 	`
 });

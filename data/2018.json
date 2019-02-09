@@ -1,11 +1,75 @@
 {
   "anime": {
-    "21856": "My Hero Academia Season 2",
-    "20958": "Attack on Titan Season 2",
-    "21613": "Youjo Senki",
-    "97886": "Kekkai Sensen & BEYOND",
-    "97980": "Re:CREATORS",
-    "87539": "The Dragon Dentist"
+    "100077": "HINAMATSURI",
+    "100093": "Skull-face Bookseller Honda-san",
+    "100166": "My Hero Academia S3",
+    "100178": "Liz and the Blue Bird",
+    "100183": "Sword Art Online Alternative: Gun Gale Online",
+    "100298": "MEGALOBOX",
+    "100332": "Kokkoku: Moment by Moment",
+    "100388": "Banana Fish",
+    "100673": "Dragon Pilot: Hisone and Masotan",
+    "100855": "Today's Menu for the Emiya Family",
+    "100922": "Grand Blue",
+    "100957": "Lupin III: Part V",
+    "100977": "Cells at Work",
+    "101001": "Asobi Asobase",
+    "101165": "Goblin Slayer",
+    "101291": "Rascal Does Not Dream of Bunny Girl Senpai?",
+    "101316": "IROZUKU: The World in Colors",
+    "101351": "Happy Sugar Life",
+    "101360": "Ananesasu Shoujo: The Girl in Twilight",
+    "101368": "Planet With",
+    "101474": "Overlord",
+    "101571": "Aggressive Retsuko (Netflix)",
+    "101573": "Bloom into You",
+    "103871": "Zombie Land Saga",
+    "106246": "Baby I Love You Daze",
+    "106919": "sister (ft. Eve)",
+    "20574": "High Score Girl",
+    "20791": "Fate/stay night [Heaven's Feel] I. presage flower ",
+    "20958": "Attack on Titan S3",
+    "21127": "Stein's;Gate 0",
+    "21613": "Youjo Senki: The Saga of Tanya the Evil",
+    "21726": "Aggressive Retsuko (Original)",
+    "21813": "Is the Order a Rabbit?? Dear My Sister",
+    "21827": "Violet Evergarden",
+    "21833": "Haikara-san: Here Comes Miss Modern Part 1",
+    "21856": "My Hero Academia S2",
+    "21875": "No Game No Life -Zero-",
+    "87539": "The Dragon Dentist",
+    "97768": "Record of Grancrest War",
+    "97881": "Cardcaptor Sakura: Clear Card",
+    "97886": "Blood Blockade Battlefront & BEYOND",
+    "97980": "RE:Creators",
+    "98034": "The Disastrous Life of Saiki K. S2",
+    "98385": "After the Rain",
+    "98389": "KILLING BITES",
+    "98436": "The Ancient Magus's Bride",
+    "98439": "Mitsuboshi Colors",
+    "98444": "Yuru Camp △",
+    "98460": "DEVILMAN Crybaby",
+    "98478": "3-Gatsu no Lion S2",
+    "98658": "Shoujo☆Kageki Revue Starlight",
+    "98693": "Slow Start",
+    "98762": "Love, Chunibyo & Other Delusions: Take on Me",
+    "98866": "Yama no Susume S3",
+    "99131": "Comic Girls",
+    "99147": "Attack on Titan S3",
+    "99366": "Chio's School Road",
+    "99423": "Darling in the FranXX",
+    "99424":"SSSS Gridman",
+    "99426": "A Place Further Than The Universe",
+    "99457": "Maquia: When the Promised Flower Blooms",
+    "99468": "Skilled Teaser Takagi-san",
+    "99578": "Wotakoi: Love is Hard for Otaku",
+    "99586": "Harukana Receive",
+    "99699": "Golden Kamuy",
+    "99748": "Hakumei and Mikochi",
+    "99750": "I want to eat your pancreas",
+    "99916": "Kase-san and Morning Glories",
+    "99937": "Baja's Studio",
+    "99938": "Girls und Panzer das Finale: Part 1"
   },
   "sections": [
     {
@@ -75,13 +139,226 @@
               "writeup": "One of the most hotly anticipated and widely viewed shows of 2018, it's no surprise that Darling in the FranXX shows up here. Lifting a cornucopia of great ideas from past shows and flourishing with great, eye-catching character design, FranXX was certainly promising. \n\nSet in a dystopic future where the world's been stripped for the majority of its natural resources, FranXX sets in early to get us invested in a broad cast of characters learning how to live and love together. It does its best to keep you invested by baiting with little hints of the world they live in alongside romantic development. The jury felt it never really capitalized on anything it set up, though. We felt that the front half is alright, but the back half becomes somewhat messy and a lot of pre-established ideas start to lose their meaning. There are several episodes during the first half of the series that end up just not mattering in the end. While FranXX is still an entertaining watch, its lack of focus and foresight leave it struggling to find space for itself among the year's other top contenders."
             }
           ]
+        },
+        {
+          "name": "Best Adventure/Fantasy Anime",
+          "link": "",
+          "blurb": "Whether it be an adventure across our world or others, or a fantastical implementation of magical whimsy, this year’s offerings in the Adventure/Fantasy genre have been both diverse and exciting. We’ve been taken on trips through post Russo-Japanese War Hokkaido in Golden Kamuy, to Antarctica in Sora Yori mo tooi Basho, and France and other worldly places in Lupin’s classic adventures. We’ve witnessed magical quests spanning an imaginary continent with Grancrest Senki, the development of the changing world of Overlord across two more seasons, a kingdom delving into its dwindling mythologies in Maquia, a twisted tribute to the fantasy worlds in Goblin Slayer, and the expansion of mythology to create a world of magic in Mahoutsukai no Yome. This year had many fantastic adventures so this jury found itself a wealth of shows to journey through. Not many entries were quite enough to find themselves an Anime of the Year nomination, but the genre lives on strong through a surprising variety despite the wealth of isekai which we have seen. And so with full passports and aspirations, we enjoyed our adventure through 2018.",
+          "nominees": [
+            {
+              "id": 100957,
+              "altimg": "",
+              "altname": "",
+              "public": 7,
+              "jury": 1,
+              "writeup": "Lupin III: Part V boasts its knowledge of action movie cliches and its ability to use/subvert them to make the most chill, downbeat action romp this year. Unlike typical action thrillers, It doesn’t demand your attention by ramping up the tension to a grand crescendo. Instead, they use the animation, which gets just as cool as it does goofy, and the soundtrack, a silky smooth jazz bop, to miraculously make the gang’s wacky antics as nonchalant as they need to be to look cool, continuing what has made the franchise so beloved over its 50 year run. \n\nSurprisingly, Part V gets more topical and political than most anime dare to. Issues having world-wide relevance (not just Japan!) are genuinely thought provoking and give the action room to breathe, but their focus and applicability to the main cast prevent them from feeling bloated or unnecessary.  The cast itself is instantly likeable; Lupin is the infectiously confident and charming lead to the equally iconic side cast, friends and foes alike. The patented Lupin Crew™ may only be 6 characters, but each one is irreplaceable and quintessential to the group chemistry. \n\nPart V has places to go and doesn’t wait for you to keep up. It's on a roll and whatever it attempts, it accomplishes with basically more polish, charisma and heart than anything this year."
+            },
+            {
+              "id": 99426,
+              "altimg": "",
+              "altname": "",
+              "public": 1,
+              "jury": 2,
+              "writeup": "A Place Further Than the Universe showed the excellence of what a adventure show can achieve when they capitalize on their true potential. The cast is what excels in this anime as each one of the 4 main girls had both a compelling and personal reason for going to Antarctica. Shiriashi’s story was one of the most heartfelt of the year and seeing it all come to fruition was nothing short of amazing. The settings were not only original, but also the detail paid to these locations was phenomenal. Both Singapore, and Antarctica were unique and exhilarating and gave a sense of identity. Minor complaints about some of the Megami developments and the pacing in the later episodes, but it does not take away from the overall show.Overall, A Place Further than the Universe, was sensational in both the characters and plot development and delivered an enriched emotional experience that showed the genuine brilliance of an adventure anime and easily deserves a top 2 ranking. There are not many shows that can compete with it."
+            },
+            {
+              "id": 99699,
+              "altimg": "",
+              "altname": "",
+              "public": 3,
+              "jury": 3,
+              "writeup": "Golden Kamuy began with one of the most unfortunate episodes the year had to offer. Multiple poor directorial decisions (including CGI mistakes and poor cuts) ultimately hurt the potential audience; source readers included. Yet what shortly followed provided one of the most intense and enjoyable experiences of 2018. Golden Kamuy contains a wide spread of incredibly interesting characters with a lot of depth and motivation; all of which weave in and out of groups together, presenting unique situations between each other which always felt fresh and exciting. The viewer is often left wondering for themselves just who is working for who, as well as which characters are the real antagonists in the series.Comedy is a large part of the series, something it absolutely has down pat. Be it the cast interacting with each other through utilizing injuries as methods of humor, the new cooking experiences for characters, and bizarre encounters or the plentiful usage of sexual jokes, there is something for everyone in Golden Kamuy to laugh to; something the jury agreed with all-round.While consisting of two seasons, the resounding opinion among the jurors was that the latter season especially ramped up the eccentricness of the cast as well as the plot, which also took a more serious route. Many characters paths converge towards the end of the season, executing by and far the best story arc among the nominations. Whilst its production values did improve over the course of the show airing; including some aspects such as the show’s soundtrack which is incredibly fitting for both comedic and dire moments, the jury noted that other nominations were far more consistent with their quality across their entire duration. Regardless, Golden Kamuy is an incredible series which utilizes it’s characters flawlessly and progresses its plot in a very satisfying manner. The jury is not joking when they say that there is a little bit of something for everyone in this series… It is hard enough as is to simply list all the genres which apply to it!"
+            },
+            {
+              "id": 99457,
+              "altimg": "",
+              "altname": "",
+              "public": 6,
+              "jury": 4,
+              "writeup": "Maquia is the directorial debut of Mari Okada, a previous writer for multiple anime hits over the last decade. As a debut film, it looks absolutely beautiful, creating a rich and enchanting fantasy world with the Iorph and dragons in just under 2 hours. The worldbuilding in the movie is fantastic for its length, establishing a great setting of where our story is taking place. The immaculate visuals bring the setting to life even more through gorgeous backgrounds.It also tells a wonderful story about the tale of raising a kid when you aren’t ready, as well as presents the concept of outliving your children and the ramifications of it. The jury enjoyed the first half of the movie with the tale of Maquia raising Ariel in a fashion similar to Wolf Children, and it was a wholesome story that hit the right emotional beats. Maquia herself was very well liked among the jury, with Ariel losing favor among them during the second half.The main complaint of the jury was the general lack of compelling side characters and their arcs. Leilia and Krem were not that compelling, and the jury wishes that they would have spent more time of Maquia raising Ariel instead of focusing on the side characters and the plot revolving the war. The jurors felt it was tacked on a bit and strayed away from the stronger aspects of the film. Regardless, many enjoyed the conclusion. As a first-time director, Okada visually impressed us, making it an easy choice for it to be a strong nominee in our awards this year."
+            },
+            {
+              "id": 98436,
+              "altimg": "",
+              "altname": "",
+              "public": 5,
+              "jury": 5,
+              "writeup": "While many entries in Adventure/Fantasy were hotly contested, one of the few things people could agree on was The Ancient Magus’ Bride. No, not the show as a whole, but the sound design/OST and world-building were cited by all of our jurors as a point in the favor of this dark fantasy show. Of particular note were the side-arcs that the show later built upon, and the supporting fantasy cast (shout outs to Neville, Silky, and Ruth), as well as the art-style and sources the fantasy elements are drawn from. More divisive were the main characters, Chise and Elias. While some thought Chise’s character arc and portrayal of a badly-damaged human were compelling, others found her boring or one-dimensional. Her relationship with Elias (and the framing of that relationship) also came under fire for being somewhat disturbing without being properly explored. Elias was also a character the jury had mixed feelings on, with some finding him creepy or bland, and others finding him compelling. After some heated discussions, our jurors ultimately decided to place it fifth."
+            },
+            {
+              "id": 101165,
+              "altimg": "",
+              "altname": "",
+              "public": 2,
+              "jury": 6,
+              "writeup": "Seemingly taking inspiration from Dungeons and Dragons and high fantasy stories from an array of mediums, Goblin Slayer is a straight forward journey about one man's life slaying goblins. He isn’t an adventurer per say, and as the narrator describes, he doesn’t let any god roll his dice. Goblin Slayer isn’t on a mission to save the world nor is he interested in doing so. Sixth place may appear low for Goblin Slayer, but compared to the other shows above it that feature wild adventure romps, treasure hunts across early 1900’s Japan, and beautifully crafted fantasy worlds, Goblin Slayer plays it safe. It sits comfortably between better crafted and executed shows, and those that suffered from too many faults. Goblin Slayer’s story isn’t adventurous, nor is the adaptation of the source material. Instead of a more mature dark fantasy experience with a well grounded premise, White Fox gave us the PG-13 reduction that ultimately became its biggest weakness. Despite this, Goblin Slayer was still an enjoyable addition to the fantasy genre that managed to breathe life into a genre that has had its tropes abused by good and bad animes over the last few years. Goblin Slayer’s pragmatism made the action fun as he continuously proved to be the bane of the goblins’ existence while his party and other minor characters helped to showcase his reputation as the weird one at the adventurer guild. This season ultimately set out what it hoped to do: kill Goblins, and start breaking Goblin Slayer out of his shell. Goblin Slayer was fun, but ultimately felt like it pulled its punches in a category with several heavy hitters."
+            },
+            {
+              "id": 97768,
+              "altimg": "",
+              "altname": "",
+              "public": 8,
+              "jury": 7,
+              "writeup": "Grancrest Senki is an anime that suffers from a some issues early on, but as run-time continues it rewards you with an enjoyable cast of characters and some really cool fight scenes. Getting the larger problems out of the way to make room for the things that were more enjoyed, the pacing for the first 8 episodes felt lightning fast, leaving behind a massive exposition dump and some lackluster character introductions, asking the question if this would’ve worked better as a longer series (3-/4-Cour possibly). This coupled with the lack of a very compelling antagonistic force throughout the series and some problems with consistency in the story caused it to fall a little lower on our list of shows. Despite not having too many dynamic changes with the cast, one of the more enjoyable aspects of Grancrest Senki was with the characters and their relationships. Grancrest gave us some fulfilling relationships fairly early in the shows run time and seeing them grow as the story continued on made Grancrest entertaining to watch. These relationships along with the genuinely fun main cast of characters and the consistently solid animation made Grancrest an enjoyable adv/fan show to watch."
+            },
+            {
+              "id": 101474,
+              "altimg": "",
+              "altname": "",
+              "public": 4,
+              "jury": 8,
+              "writeup": "Continuing Momonga’s exploits from the first season, the next two ones bring us a wide host of new characters as well as a higher focus on world and character building. This is done at the cost of Momonga’s screentime, much to the chagrin of some, but if you look past that you will find a mystical world with much to explore, and behind the scenes intrigue. The various kingdoms are given a much bigger role, as well as a focus on administrating the various projects the Tomb of Nazarick has going. However you would be amiss to discuss those seasons without mentioning the lightning fast pace at which they were going, cutting out many fan favorite moments in lieu of covering more volumes. Despite this the jury found the climaxes to be rather uninteresting and very rushed.  There is also the strange decision to animate more things in CGI, reminiscent of the critically bashed new Berserk adaptation visuals. Indeed it does both anime and source fans a disservice to see the most anticipated scenes not only rushed, but terribly produced. If you can look past all of that, you will find an interesting dark fantasy show that decided to focus more on the dark part these two seasons, as well as bringing more of the same feelings we yearned from the first season by basking in the greatness that is Momonga."
+            }
+          ]
+        },
+        {
+          "name": "Best Comedy Anime",
+          "link": "",
+          "blurb": "While comedy is completely subjective, 2018 should be applauded for having such a diverse lineup of shows where at least one is guaranteed to be to your liking. Some are genuinely hilarious while intertwining dramatic family moments like Hinamatsuri, others use a documentary type format like Cells at work, and of course the classic slice of life comedies like Tada never falls in love  and Miss Beelzebub. Each one of them had flaws and some had way more than others, but 2018 was a decent year for comedy. Of course we also had some absolutely hilarious source material with hilariously bad adaptations like Grand Blue and Back Street girls. However I would have to say the most comedic part of the year was the nomination process for the shortlist. We had some mishaps during the voting process which resulted in us going over the deadline, but the discussion and write up portion went smoothly.",
+          "nominees": [
+            {
+              "id": 100077,
+              "altimg": "",
+              "altname": "",
+              "public": 1,
+              "jury": 1,
+              "writeup": "Hinamatsuri was a strong comedy that managed to balance its hilarious moments with that of genuine heartfelt ones, to create a well balanced and endearing show. With a premise of a young girl with psychic powers being adopted by a Yakuza member, not many people would expect the down to earth story of family, support and hard work that plays out in between the high jinks situations that occurred throughout the show. The Jury felt that this is what made the show stand out from the rest of the shows on offer this year, as the emotional side of the show allowed you to really get attached to and feel for the characters while still leaving enough room for the comedy of the show to sweep you away with in its hilarity. The characters were also a strong point for the show, with endearing characters that helped bolster the comedy of the show and make it as memorable as it was. Anzu and Hitomi particularly stood out within the cast, as their situations and interactions lead to some of the highlights of the show. Hitomi and her unwillingness to say no, lead to some really funny moments as she continued to climb the social ladder, while trying to keep her private life secret from those around her, while Anzu’s story of family, whether it was with the Homeless or her adopted family at the restaurant, gave us some of the most touching moments of anime this year. These things, along with some of the best comedic timing of the year, fantastic animation, a smooth and clean cut art style and some expressive VA work lead to the Jury awarding Hinamatsuri the title of; Best Comedy of 2018."
+            },
+            {
+              "id": 98034,
+              "altimg": "",
+              "altname": "",
+              "public": 5,
+              "jury": 2,
+              "writeup": "Saiki Kusuo returns both as the absurdly overpowered psychic and as the unflinching straight man to the antics of his classmates. His quest for peace is further disturbed in season 2 when the already large and memorable cast grows even more. Saiki K was well loved by jurors for continuing on the fast-paced dialog, strong character interactions and excellent voice acting. It was one of the most consistently funny nominations, able to maintain its high quality throughout the whole two cour run. Some of the skits and arcs (and even one of the new characters) were a little weak, but the show as a whole was so good that Saiki K easily earned its number 2 spot in the awards. The side-characters continue to lean heavily into their shticks, usually to absurd degrees, and each is a good foil to Saiki in their own way. The show cycles through everyone frequently and changes up their relationships often enough that each episode feels just as fresh and funny as the last. Season 2 features more short story arcs than season 1 did and while some of them did drag on a bit, in general they allowed more character development to shine through while Saiki was dealing with the latest fiasco. Watching Saiki trying to work his way out of situations created by mostly powerless high schoolers is always a blast, and his deadpan responses and frequent self-referential humor continue to be the highlight of the show. Even among the other nominations, Saiki Kuso no Psi-nan is an overall very strong entry in the awards this year, a well-deserved second place."
+            },
+            {
+              "id": 21813,
+              "altimg": "",
+              "altname": "",
+              "public": 8,
+              "jury": 3,
+              "writeup": "As the highest rated diabetes inducing show on the list, Gochuumon wa Usagi desu ka?? Dear My Sister follows in the footsteps of the previous two seasons, bringing you sugary sweetness that'll make you melt, as well as striking gags from each of the main characters. The movie plays out as Cocoa decides to visit home and we get to follow along with Cocoa to her hometown, additionally we get to experience what not only Rabbit House is like without Cocoa, but how the main cast interacts without her. The jury had split opinions but largely enjoyed the movie and felt it stayed true to its franchise and brought similar traits to its prequel seasons, it's a treat for anyone who wants more GochiUsa and does an exceptional job bridging the excitement into the upcoming third season. While it does its job perfectly for someone who wants to relax with some coffee an afternoon, it does not have a lot of narrative strength on its own and it feels more like a long episode than a movie which made the movie place lower than it could've, but despite that its viewed as one of the best entries in this category for its strength around character interactions. Clocking in at only an hour, this movie is worth the watch for anyone who enjoyed the previous seasons of GochiUsa."
+            },
+            {
+              "id": 98439,
+              "altimg": "",
+              "altname": "",
+              "public": 6,
+              "jury": 4,
+              "writeup": "Intoxicatingly sweet Mitsuboshi Colors enters as one of the best comedies of winter and 2018.  Mitsuboshi Colors captured the hearts of thousands of viewers as it followed the daily antics of three little girls; the sadistic gamer Kotoha, the shy diligent leader Yui, and the witty energetic nincompoop Sat-Chan.  Mitsuboshi Colors portrayal of kids was frighteningly accurate as they entertained themselves and annoyed others with various activities. Activities ranging from simple hide and seek, visiting the zoo, and a massive Halloween survival game. Watching these three kids with complete freedom “save” their town typically sent viewers on a nostalgia trip and was simply relatable. The show also has a lively and diverse supporting cast from police officers, older students, shop owners, and more. None of which are overbearing and most of them offer encouragement to the colors, try to promote creativity within them, and understandingly join in sometimes. A vibrant environment enriched and brought to life by all the loving characters which sends a beautiful message while simultaneously creating an endearing atmosphere. The character designs and models for the three girls were basically the same which is disappointing however the costume design is impressive. The Colors typically wear such a wide range of expressive well designed clothing multiple times per episode. The characters, interactions, and nostalgia really sell the show but despite this the show is plagued with poor production(ex. Still shots, little animation, etc) which resulted in a lower overall ranking."
+            },
+            {
+              "id": 101001,
+              "altimg": "",
+              "altname": "",
+              "public": 2,
+              "jury": 5,
+              "writeup": "With a combination of insane, over-the-top reaction faces and aggressive voice-acting, all under a veneer of cute girl shenanigans, Asobi Asobase unexpectedly lasered into the hearts of many. Primarily a skit show, the jury felt the show was at its best when its use of absurdist situations and physical humor was pushed to the extreme, which is a near constant throughout the show. The three main characters have an incredible ability to push a normal situation quickly into the bizarre, and the chaos that ensued created some amazing comedic moments.  Pair that with their interactions with a varied and intriguing side cast, and every episode Asobi Asobase had something that could make you fall out of your chair laughing. However, hit-or-miss was the tagline for many of the jury when it came to this series, and what inevitably dragged it down to the 5th rank. The jury felt that Asobi had an overall lack of comedic consistency through the skits in each episode, as well a bit of an over-reliance on “reaction face” based humor as opposed to well thought-out punchlines and jokes. On top of that the voice-acting was a source of contention.  Some fighting for its worth in selling the comedy and characters, while others being turned off by overly loud and grating nature of it’s quick change."
+            },
+            {
+              "id": 99366,
+              "altimg": "",
+              "altname": "",
+              "public": 7,
+              "jury": 6,
+              "writeup": "Chio's School Road is a comedy that rested a lot of it's humor on Chio herself, and the jury thought that she definitely lived up to those expectations. Watching Chio's inner monologues justify how she gets into each of the wacky situations she finds herself in (as well as the insane imagination she has in relation to bringing video games into real life) is what drove the show's humor, making for a lot of creative skits that stand apart from what a normal school comedy would bring. However, she's not alone in this show, with her partner Manana and her unlikely friend Andou being the definite highlights of the rest of the cast. Manana and Chio have a great best friend dynamic, constantly trying to either screw each other over in some way so that they can escape the situation they're in, or realizing they're in it together no matter what, and doing whatever they can to get out ASAP. On the other hand, watching the ridiculous biker gang side plot with Andou unfold made for a lot of the best moments of the series, turning up Chio's inner monologues and \"wing it\" nature to 11, really capitalizing on what makes the series what it is. Unfortunately, the jury wasn't in love with most of the rest of the side cast. The perverted homeless man, lusty kabbadi player, and kancho-loving child all created some of our least favorite skits, going a bit too far into raunchy humor rather than just being over-the-top. These skits were far from ruining the show overall, however, and still left us confident in saying that Chio was one of the best comedies of the year."
+            },
+            {
+              "id": 103871,
+              "altimg": "",
+              "altname": "",
+              "public": 3,
+              "jury": 7,
+              "writeup": "Zombieland Saga is in an interesting placement because a pretty good portion of the jury felt that the show started to move away from comedy more into character drama as the show turned from what appeared to be a parody of idol shows to an idol show with zombies. An example I can give is that I think a lot of us thought that the bad CGI was there just to make fun of other idol anime, but after they kept using it it became apparent that it’s just bad CGI. There is no doubt that the start of the ZLS was explosive, delivering what many of us consider to be the best within the category. I think we wished that this sense of freshness could have stayed with us for the entire run. That said, we did appreciate them trying to promote some more character development, especially for Saki and Lily and saw Koutarou’s performance as a standout within the show. Generally, we expect to see a follow-up season to start to flesh out the rest of the cast and further expand on some of the teases we saw near the end of the season. We are tentatively excited to see how a potential sequel might help to fill in some of the gaps that were left from the first season."
+            },
+            {
+              "id": 100922,
+              "altimg": "",
+              "altname": "",
+              "public": 4,
+              "jury": 8,
+              "writeup": "How unfortunate that a show about diving (allegedly) dropped straight to the bottom of our list. One of the most refreshing parts of Grand Blue was how it diverted from the usual high-school setting into a more mature college setting, full of alcohol, scantily clad women (and men), and plenty of nudity. Jokes stemmed more on the cast just being jerks to each other, typically involving one character getting another to drink. Grand Blue was an odd show for our jury. Many of us are tremendous fans of the manga, but the anime left us feeling...disappointed. Perhaps it’s the change of medium, but many of the jokes that were funny in the manga didn’t quite land in the anime. In fact, Grand Blue is at its best when it’s not focused on comedy. Scenes that actually involve diving or Iori’s fear of water are some of the best in the show, and gained great praise from the jury. It’s just a shame these scenes were so scarce."
+            }
+          ]
+        },
+        {
+          "name": "Best Romance Anime",
+          "link": "",
+          "blurb": "Romance was a relatively strong genre in 2018, there were a lot of strong candidates in the form of dramatic romance stories and a few great romantic comedies throughout the year. The roster of romance shows was plentiful and quite solid, as there existed numerous high level romance shows to make sure any fan of love stories would be sated. We had quite a few potential candidates to fill out the eight slots in the awards but the jury found a level of mutual understanding with their choices to make sure the final list would be a good one.",
+          "nominees": [
+            {
+              "id": 101573,
+              "altimg": "",
+              "altname": "",
+              "public": 2,
+              "jury": 1,
+              "writeup": "After a little tussling, the romance jury decided that the winner of the Romance Category would be Bloom Into You. The lesbian romance of the year finally showed itself in Fall and TROYCA certainly did a fantastic job with it. The jury felt that the Bloom’s portrayal of innocence and immaturity of young love was handled with incredible grace and poise. Through Yuu and Touko’s emotional confusion, Bloom Into You portrays the truly heartwarming and beautiful moments that can exist even within the follies and struggles of immature love. With a stunning usage of “golden hour” lighting, and shot composition that places the viewer in the moment, the show makes it easy for anyone with similar experiences of young love to relate to the characters- Bloom Into You is simply 2018’s definitive show about “Hatsukoi,” or “first love.” Falling in love while also figuring out who you are is difficult and confusing, and sometimes people are hurt in the process. Bloom Into You is a reminder that these periods of youth can still hold incredibly sweet and heartwarming moments. Bloom deftly manages the various and sometimes contradictory aspects of self-discovery and love almost perfectly, and this nuanced approach made it the jury’s Romance of the Year."
+            },
+            {
+              "id": 20574,
+              "altimg": "",
+              "altname": "",
+              "public": 5,
+              "jury": 2,
+              "writeup": "While the winner of the category was highly divisive placing everywhere between 1st and 8th for the individual jury members, High Score Girl was unanimously agreed upon to be one of the better shows in the category all year long. With its excellent portrayal of character chemistry and romantic development it was hailed for not only having some of the strongest characters of the entire year, but also as being one of the best shows of the year. The jury felt like the show did an incredible job having the characters be unique and expressive and that the general standard of the show was incredibly high. The visual presentation of the show is quite unique and was a point of division for the jury as some felt it was ugly while others claimed it was unique and thematically fitting. the show did have a weak point in regards to the opening episodes however, they are mostly used for character establishment which sets up the excellency of the upcoming episodes. High Score Girl might not have won the category, but it's highly recommended that everyone check out this masterful production."
+            },
+            {
+              "id": 98385,
+              "altimg": "",
+              "altname": "",
+              "public": 4,
+              "jury": 3,
+              "writeup": "KoiAme is a well produced show.  As a jury, and well I think as a community, we all can at least agree on that.  The unique art style and creative direction made the show stand out from a visual perspective, and even the most reluctant of jurors have to admit especially against this particular group of shows it stands out as one of if not the best looking show in the category.  It’s ultimate placement in the category will leave virtually everyone unhappy though, and this is in large part due to the divide on how well the show accomplishes its storytelling.  Those of us who had the show as the best in the category will cite the story being as unique as its visuals.  To some it was a compelling study into the nature of obsession and passion, and how easy it is to get those confused and to get lost along the way.  They see it as a tale of two people learning from each other and growing from those lessons.  Not everyone saw it that way though.  The show’s transition from a romance setup to a character drama proved to be a sticking point for many, whether it be how that transition happened or that it would be better if it stuck to either one.  Some members of the jury thought that Akira’s arc was handled poorly, while others thought it was Kondou’s arc that was handled poorly.  There were as many people praising the visual storytelling as there were people criticizing that same show’s heavy handedness.  This unsatisfying compromise of a ranking is the result of that fairly big divide in opinion."
+            },
+            {
+              "id": 99578,
+              "altimg": "",
+              "altname": "",
+              "public": 3,
+              "jury": 4,
+              "writeup": "Wotakoi’s accurate portrayal of working class otakus was generally well liked by the jury. The show does a great job of showcasing some of the sacrifices that must be made when devoting yourself to your partner and how this impacts the time one would usually spend on their hobbies. The jury felt like the two main couples shared some pretty special chemistry and with some well timed comedy and expressive voice acting performances there was a plentiful amount of laughs to be had to top it off with some really heartwarming moments. The shows mediocre production and the somewhat abrupt and unwarranted introduction of Kou and subsequent lack of development towards the end of the show were two of the main complaints the jury had with the show. Although it didn’t place extremely high in our rankings Wotakoi is a well executed office romcom and is recommended for anyone looking for a warm, light hearted and fun show with an interest in otaku subculture."
+            },
+            {
+              "id": 99916,
+              "altimg": "",
+              "altname": "",
+              "public": 7,
+              "jury": 5,
+              "writeup": "Kase-san was a hot debate within the jury. It was a favourite of some jurors, while others largely disliked it. The hour-long film presents a lesbian romantic couple during their high school years and details their personal struggles and worries with each other as well as themselves. The production of the film was agreed upon as being very well done, with great direction, lovely background artwork and animation, as well as a charming soundtrack. The main complaints revolved around the drama throughout the movie. Much of the screen-time focuses on Yui; a fairly timid girl, who very much so loves Tomoka; the tomboyish female lead but doubts her feelings due to her personality and traits that Tomoka has that she wishes she had. Her inability to move forward on her own or communicate her thoughts easily (albeit being more forward than many other characters this year) until later in the film creates some drama that is taken in and painted as being both too typical of the genre and irritating for the viewer. Not being the only Yuri centric show in the nominations this year, many jurors gravitated towards the alternative as a preferable option. However, Kase-san still does stand strong as a wonderful observation into the ongoing relationship of two quaint lovers. It has many cute and fluffy moments to squeal over, a fair dashing of drama, as well as some moments likely to make even you yourself blush. In the end, Kase-san is a very refreshing romance entry for clientele with an open mind and who are looking for something more personal or relatable for a romance."
+            },
+            {
+              "id": 99750,
+              "altimg": "",
+              "altname": "",
+              "public": 6,
+              "jury": 6,
+              "writeup": "Kimi no Suizou wo Tabetai (I want to eat your Pancreas) wrapped like so many others in the mellow blue hues of defeat did not stand at the top of the podium as an anime choice for the jury, however it was still a worthy contender able to embrace its own hues and rise near to the top of the ever lingering fog of competition. Based around the underlying fragility of Sakuta’s life amidst an ever-dangerous stage where death loomed so close to her Kimi No Suizou belittled cynics into submission with its sublime voice acting performances. Beautiful soft pinks mottled with shafts of darkness peaked through a frankly impressive art style. Motifs and ideas such as the facade wrapped around Sakuta and Haruki’s friendship were implemented with ease. Attempting to pull us in with grand gestures of happiness and to leave us crying in our beds, Kimi no Suizou was meant to be beyond heartbreaking to watch as the great tragedy unraveled before our eyes. However, this was far from the reality found by the jury. Many aspects such as Haruki’s character fell flat as a supposedly relatable character was only seen as a prick. The story too predictable at times lost its grip on the Audience. The music often crept out of place. And Kyouko might as well having been non-existent. Kimi No Suizou was simply worded “a good idea implemented very wrong”."
+            },
+            {
+              "id": 21833,
+              "altimg": "",
+              "altname": "",
+              "public": 8,
+              "jury": 7,
+              "writeup": "In a way, it's quite remarkable that a manga from the late 70s would get a new film adaptation some 40 years later. It's definitely nice that an older work is getting renewed recognition in an age of seasonal Light Novel adaptations. Sadly, it doesn't exactly work. The jury as mixed on Haikara's lead, Benio Hanamura. While she's fun and energetic, some of us felt she was overly careless and ignorant of her circumstances, and on occasion her attempts to break social norms came across as more selfish tantrums. The rest of the cast fared slightly worse, as her romantic interest Shinobu is somewhat bland, though most of the others are serviceable in their roles. Ultimately Haikara-san's age bring some inevitable problems. It's core feminist themes about Japanese society in 1918 may have resonated when written about in 1975, but don't translate quite that well in 2018. Benio more-or-less falls in love at first sight with Shinobu, and ends up being quite willing to change her lifestyle when things get serious. While the end of the first movie has her growing up quite a bit, it remains to be seen where her development goes. As such, the jury was somewhat unsure about judging Haikara-san based only on it's first movie, but more than enough of both it's good and bad aspects were on display, and none of us were particularly impressed."
+            },
+            {
+              "id": 101291,
+              "altimg": "",
+              "altname": "",
+              "public": 1,
+              "jury": 8,
+              "writeup": "Bunny Girl Senpai, although it is the juries final placement; it was still an excellent show. The jury agreed that the starting arc with Mai and Sakuta was the strongest as it showed our main characters at their greatest and the relationship between to two was phenomenal. The chemistry between the two was genuine and it helped guide the show and the humour was on point as well specifically in the early stages when these two were featured. Futaba and Kaede were great supporting characters that helped contribute to both the dramatic and fun elements of Bunny Girl. This show took a unique spin on the Harem trope similar to the Monogatari series. Unfortunately there were some debates over the other character arcs. There was a divide on the Koga arc but in general they were still positive. Nodaka’s arc was almost unanimously deemed the most disappointing as she was far too undeveloped before being placed in the spotlight. Overall, Bunny Girl was still an incredibly entertaining watch that balanced both the comedic and dramatic elements impressively and the overarching storyline of Sakuta’s backstory kept the show intriguing for all 13 episodes."
+            }
+          ]
         }
       ]
     },
     {
       "name": "Character Awards",
       "slug": "character",
-      "blurb": "These awards are given to the characters the characters with exceptional writing amongst both dramatic roles, comedic roles, and to the voice actors responsible for the best performances behind these characters.",
+      "blurb": "These awards are given to the characters the characters with exceptional writing amongst both dramatic roles and comedic roles, as well as memorable antagonists and casts.",
       "icon": "img/assets/characterawards.png",
       "awards": [
         {
@@ -116,12 +393,12 @@
     },
     {
       "name": "Production Awards",
-      "slug": "genre",
-      "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
-      "icon": "img/assets/genreawards.png",
+      "slug": "production",
+      "blurb": "These awards given to the shows that have displayed exceptional performance in technical areas. From visuals, to sound, to OP and ED, every award in this section showcases a different aspect of the process of anime production.",
+      "icon": "img/assets/productionawards.png",
       "awards": [
         {
-          "name": "Best Action Anime",
+          "name": "",
           "link": "",
           "nominees": [
             {
@@ -139,11 +416,11 @@
     {
       "name": "Main Awards",
       "slug": "main",
-      "blurb": "These awards are given to the shows from each genre that have displayed all round excellence amongst their peers. Each show was assigned to one of seven genre categories, and a winner was chosen among each category.",
-      "icon": "img/assets/genreawards.png",
+      "blurb": "The anime of the year. The greatest of them all. These awards divided each anime from 2018 by format, and the very best among each one was awarded the title of best short, best movie, best original and the coveted best anime of the year.",
+      "icon": "img/assets/pubjury.png",
       "awards": [
         {
-          "name": "Best Action Anime",
+          "name": "",
           "link": "",
           "nominees": [
             {
