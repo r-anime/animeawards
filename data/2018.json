@@ -551,7 +551,7 @@
       "icon": "img/assets/characterawards.png",
       "awards": [
         {
-          "name": "Main Dramatic",
+          "name": "Best Main Character in a Dramatic Role",
           "link": "",
           "blurb": "",
           "nominees": [{
@@ -620,7 +620,7 @@
             }]
         },
         {
-          "name": "Main Comedic",
+          "name": "Best Main Character in a Comedic Role",
           "link": "",
           "blurb": "2018 was a competitive year for comedy with many standout prospects across the board, and for the Main Comedic jury that didn’t make things any simpler. After the pubic nominations were released, the jury got to debating it’s selections. Saiki was almost an immediate lock, with the rest of the picks being more contentious.  Outside of the eventual selections, other characters from shows such as Chio-chan, Hisone to Masotan, Yuru Camp, and Hinamatsuri all got serious consideration before locking in the final choices without too much split from the jurors. \n\nFollowing that first stage, after all the jurors initial write-ups on each nomination, the juries disparate views on all of the nominations became clear, and they had some especially spirited discussion on the merits of each character's role in their respective shows.  The bottom half of the eventual results became apparent quite quickly, but the rest of the ranks had a tough fight for where they ended up, with each juror having strong opinions on each in comparison to the others.  After the final vote results were seen, there was some surprise at how it all shook out, but despite some opposing opinions all felt comfortable with each characters position."
         ,
@@ -690,7 +690,7 @@
             }]
         },
         {
-          "name": "Supporting Drama",
+          "name": "Best Supporting Character in a Dramatic Role",
           "link": "",
           "blurb": "",
             "nominees": [
@@ -761,7 +761,7 @@
             ]
         },
         {
-          "name": "Supporting Comedic",
+          "name": "Best Supporting Character in a Comedic Role",
           "link": "",
           "blurb": "Supporting Comedic was fortunate to have a large number of passionate but reasonable jurors this year and a good number of shows from which to choose our nominees. Having shows like Hinamatsuri, Saiki, Grand Blue, Zombieland Saga, and Chio-chan as notable standouts during the year made the first stage of checking out candidates and narrowing them down much easier, but fair consideration was also given to all candidates, such as Azusa from Grand Blue, Chairman and Mr. Smith from 3-gatsu no Lion, and characters from shows like Beelzebub, Takagi-san, and Uma Musume. \n\nWe were fortunate enough to have our two top picks voted in by the public, allowing us to highlight some of the more overlooked characters this year. This was especially advantageous to Fuka, who was strongly advocated for initially by one of the jurors, leading to the rest of us to look at her more closely and agreeing with them, ultimately resulting in her final rank in third place. \n\nAfter catching up on the shows and making sure each juror would be discussing the characters with the same amount of familiarity, we completed our initial write-ups and began discussions on the characters and the category itself. One large discussion was about what should be under consideration when analyzing a comedic character, leading to us ultimately deciding that depth outside of a character’s comedy, including dramatic development, should be considered in the overall strength of a character. This ended up being crucial to Anzu’s final ranking in second place. \n\nOnce discussions concluded, we cast our final votes for the award, leading to the results you see today. \n\nAlthough the category occasionally had some heated discussion, Supporting Comedic had a dedicated jury that faithfully executed its duties to their fullest extent, ensuring every character was considered, each nominee got in on their own merits, and that every viewpoint was heard.",
           "nominees": [{
@@ -893,7 +893,7 @@
           ]
         },
         {
-          "name": "Cast",
+          "name": "Best Cast",
           "link": "",
           "blurb": "This years 'cast' is a bit different than last years category of 'ensemble cast' and as such everyone judged a bit differently. With that said, the jury felt that we had a good selection for our top 7 overall. As a jury we tried to look at how each cast member was used in relation to other cast members, how well they faired as standalone characters, and how strong each cast member was given the runtime of the show. Many factors were considered when judging, but those three things were imperative during our discussions. Our top two (Golden Kamuy/3-Gatsu S2) were heavily debated, as was Hinamatsuri vs Saiki S2 but overall, we were quite happy with the rankings given.",
           "nominees": [{
@@ -965,7 +965,8 @@
           "name": "Best Animation",
           "link": "",
           "blurb": "Shocking no one at all, Animation was actually rather easy this year, with most of the slots sorting themselves out. So much so that the public nominated 2 of the slots the Jury was considering. Of course, there were a few contentions in the middle placements, regarding consistency vs peak quality. Or the bottom slots being an argument about time between Sakuga explosions. But in the end, unlike most categories, the animation speaks for itself.  It's hard to argue with KyoAni consistency, Yutapon Cubes and an animation style reminiscent of classic Disney.",
-          "nominees": [{
+          "nominees": [
+            {
             "id": 21827,
             "altimg": "prod/veg-anim.jpg",
             "altname": "",
@@ -1028,82 +1029,86 @@
               "public": 4,
               "jury": 8,
               "writeup": "As the only 2 cour series on this list, My Hero Academia had the unique challenge of extending its animation across 25 episodes. Combine that with a good portion of the staff getting pulled away to work on the Two Heroes movie and you end up with a weaker showing than prior seasons. The highs were still there, with Midoriya and Bakugou's fight and Bakugou's escape being two standout sequences of the year. However it was everything in between these big set piece's that held it back from greatness. From a lack of character animation, lots of stills and generally uninspired anime original content, My Hero Academia suffers from many of the same issues as Attack on Titan, only spread out over a far larger span of time. Yutaka Nakamura, for all his greatness, was unable to carry the season on his own. With the movie complete though and Season 4 on its way with plenty of time, I suspect My Hero Academia is going to pick itself back up without to much trouble in 2019."
-            }]
+            }],
+          "hms": ["Hugtto! Precure (Ep. 16)", "Boruto - Naruto and Sasuke vs. Momoshiki (Ep. 65)", "Hinamatsuri - Cold Open Fight (Ep. 1)"]
         },
         {
-        "name": "Art Style",
-        "link": "",
-        "blurb": "2018 can be remembered as a pretty strong year for Art-Styles. It’s one of the categories where the nominees were decided unanimously given the ones that made the cut are well above the rest of the race. In term of richness, this selection has plenty to offer. We have shows that perfectly capture the aesthetic of good old classic anime like Megalo Box and Lupin the Third part V. We have shows that used its unique character designs to create something completely their owns like Hisone to Masotan, Devilman Crybaby and Hakumei no Mikochi. We have show that goes beyond excessive and realistic details in the name of Violet Evergarden. And then we have Koi wa Ameagari and 3-gatsu no Lion that are the cream of the crop. When it comes to actual ranking, there were a fierce contest within the top 2, and several shows from the same tiers, but ultimately we are all happy with this final ranking. This year Art Styles sure leaves its mark boldly.",
-        "nominees": [{
-          "id": 98478,
-          "altimg": "",
-          "altname": "",
-          "public": 2,
-          "jury": 1,
-          "writeup": "3-Gatsu no Lion is the jury’s pick for the art style of the year. Shaft managed to incorporate myriad unique art styles into the production allowing them to perfectly match an art style to a particular scene. For example, scenes with the Kawamoto family used warm colors with ample lighting to express the positive healing effect they have on Rei, when Master Souya is on screen a tranquil feeling is created by using white and other light colors, backgrounds are sometimes eschewed in favor of a monochrome backdrop to place all emphasis on the foreground of an important scene, and powerful metaphoric imagery litters the show. Shaft’s style often tends to be polarizing since they can go so far out with an idea and abstract it to almost absurdity. Fortunately for 3-gatsu, this is one of Shaft’s more focused shows where they reigned in a lot of their creative flair and saved it for just the right moments instead of letting it go wild all the time. By appropriately picking and choosing when to use their more creative styles Shaft was able to elevate the show. The narrative of emotionally charged scenes is lifted up and pushed higher than seemingly possible by these decisions. Truly, the art style is phenomenal. \n\nIt was a very close decision between 3-gatsu and KoiAme, and the deciding factor for first place was how many different art styles 3-gatsu was able to use successfully."
-        },
-          {
-            "id": 98385,
+          "name": "Best Art Style",
+          "link": "",
+          "blurb": "2018 can be remembered as a pretty strong year for Art-Styles. It’s one of the categories where the nominees were decided unanimously given the ones that made the cut are well above the rest of the race. In term of richness, this selection has plenty to offer. We have shows that perfectly capture the aesthetic of good old classic anime like Megalo Box and Lupin the Third part V. We have shows that used its unique character designs to create something completely their owns like Hisone to Masotan, Devilman Crybaby and Hakumei no Mikochi. We have show that goes beyond excessive and realistic details in the name of Violet Evergarden. And then we have Koi wa Ameagari and 3-gatsu no Lion that are the cream of the crop. When it comes to actual ranking, there were a fierce contest within the top 2, and several shows from the same tiers, but ultimately we are all happy with this final ranking. This year Art Styles sure leaves its mark boldly.",
+          "nominees": [
+            {
+            "id": 98478,
             "altimg": "",
             "altname": "",
-            "public": 5,
-            "jury": 2,
-            "writeup": "Koi wa Ameagari’s attention to detail, composition and lighting makes not just one of the best art styles in the year, but one of the most attentive and carefully detailed works in the medium. \n\nBeing largely set in an urban modern-day environment and featuring realistic art can often mean that a show is lacking in visual identity, choosing detail over style and having a visual presentation that lends itself to less artistic flexibility and less visual expression than something more vibrant or abstract. However, on top of being immensely detailed, Koi wa Ameagari also manages to use this style to its absolute fullest extent through beautiful scenery that sets the tone well, incredible use of shot composition and closeups to make for one of the best examples of ‘show, don’t tell’ this year, and gorgeous style shifts that are used sparingly but beautifully. \n\nKoi wa Ameagari’s attention to detail and usage of visual storytelling is unmatched this year. Not only is it one of the most technically well-executed styles but it’s also used to its fullest extent and manages to stand out among shows going for similar realistic styles. It’s intricate and well thought out which shines through in every part of the visuals. It’s no doubt one of the best uses of detailed realistic art in a long time, but only ends up making second place because the jury preferred and appreciated 3-gatsu no Lion’s visual flexibility, expressiveness, storytelling through aesthetic and unique style just a little more."
+            "public": 2,
+            "jury": 1,
+            "writeup": "3-Gatsu no Lion is the jury’s pick for the art style of the year. Shaft managed to incorporate myriad unique art styles into the production allowing them to perfectly match an art style to a particular scene. For example, scenes with the Kawamoto family used warm colors with ample lighting to express the positive healing effect they have on Rei, when Master Souya is on screen a tranquil feeling is created by using white and other light colors, backgrounds are sometimes eschewed in favor of a monochrome backdrop to place all emphasis on the foreground of an important scene, and powerful metaphoric imagery litters the show. Shaft’s style often tends to be polarizing since they can go so far out with an idea and abstract it to almost absurdity. Fortunately for 3-gatsu, this is one of Shaft’s more focused shows where they reigned in a lot of their creative flair and saved it for just the right moments instead of letting it go wild all the time. By appropriately picking and choosing when to use their more creative styles Shaft was able to elevate the show. The narrative of emotionally charged scenes is lifted up and pushed higher than seemingly possible by these decisions. Truly, the art style is phenomenal. \n\nIt was a very close decision between 3-gatsu and KoiAme, and the deciding factor for first place was how many different art styles 3-gatsu was able to use successfully."
           },
-          {
-            "id": 99748,
-            "altimg": "",
-            "altname": "",
-            "public": 6,
-            "jury": 3,
-            "writeup": "Throughout the series, the tale of Hakumei to Mikochi is described as a “tiny little life in the woods,” a theme that its art style conveys exceptionally well. It truly feels like an animated fairytale storybook with its hand-painted-then-printed looking texture, special paneling effects and stubby character designs. The Jury was charmed by the fun way the scale and proportions of the natural backgrounds and oversized props were used to emphasize the small stature of the world’s elvish inhabitants. Color was also used well throughout the show, making use of both soft, mellow colors for the homes and the cities to instill a delightfully homey feel and vibrant, natural colors of the forest and surrounding naturescapes to emphasize the show’s connection to the woods. What was most frequently praised by us jurors was the sheer level of detail in all of the show’s designs. The city shops are filled with wares, the character designs are full of fun patterns and colors, and little inventions scattered around reveals a lot about how their tiny societies function. However, the Jury found that Hakumei to Mikochi’s art style was perhaps not as unique as the two nominees above it, with some concern that its nature-centric design and forest environments have been done before. Even so, Hakumei to Mikochi’s incredibly charming and storybook style and world-building scenery secures it a very strong third place."
-          },
-          {
-            "id": 100673,
-            "altimg": "",
-            "altname": "",
-            "public": 7,
-            "jury": 4,
-            "writeup": "Hisone to Masotan has a playful art style that was reminiscent of Ghibli or old Disney designs. Character, and dragon, designs are rounded with little to no sharp edges that allow for stylized and fluid animation. These character designs are core to the show’s visual success and appeal because they let the quirks and attitudes of all the characters come forth. The dragons are goofy and act a bit like big lovable dogs and the art style is there to support their affectionate behaviour. If this show was done in a more standard style a lot of the goofier moments would fall flat and Hisone to Masotan would lose almost all of the charm that it does have. The backgrounds were split between the base and the sky. The jury felt that the base background were a bit dull, as military bases often are, but that the art for the skies that the pilots and dragons soar through were beautiful and well composed. In particular, the lighting and clouds for the sky shots were excellent. All of this together made for an anime that was reminiscent of Saturday morning cartoons, which felt fresh in this medium and was a delight to watch."
-          },
-          {
-            "id": 100957,
-            "altimg": "",
-            "altname": "",
-            "public": 8,
-            "jury": 5,
-            "writeup": "While Lupin III Part V doesn't have the most polished production, it oozes with style, stealing 5th place from the nominees below it. This is best represented through its lanky and cool character designs, focusing on extremes, while not to add too much detail, which allow the show to easily animate its cast in an expressive cartoony manner. \n\nThe thick outlines and bold colors on its characters, contrast with the painted backgrounds, which fits the french theme of Part V. This received mixed reception with the jury members, but ended up being counted as a positive, rather than a negative. \n\nLupins biggest flaw lies in its inconsistent use of lighting, which is made even more obvious by the contrasting backgrounds mentioned above. The shot composition manage to capture to stylish charm of Lupin, quite similarly to its older iterations, despite being pretty basic. \n\nLupin III feels like a mix of James Bond and a comedic western heist movie, creating something truly original you don't see in modern anime. The contrast between modern and classic is well represented in the shows art style, but its ends up failing to rob 4th place, due to Hisone & Masotans more polished production."
-          },
-          {
-            "id": 98460,
-            "altimg": "",
-            "altname": "",
-            "public": 3,
-            "jury": 6,
-            "writeup": "Masaaki Yuasa’s works are known for having a very unique style that emphasizes feel over form and Devilman Crybaby continues in this trend. Typically the art styles that he choose to use are very effective for communicating the emotion of the narrative, but Devilman doesn’t quite get there. The jury felt that the art style was, from character designs to backgrounds, sloppy and unrefined. The character designs were very basic and lacked detail, and the backgrounds were acceptable but did little to add to the story. The designs do work well for the animation that was used in the show, but even then it just didn’t impress. Part of this problem stems from Devilman Crybaby being an adaption of a manga written in the 1970s. Unsurprisingly, styles now are radically different than they were then which leads to a conflict when adapting a work from that time. Is it appropriate to use a new style for a beloved manga, or should the director try and stay true to the original work? Devilman Crybaby ended up somewhere in between where it didn’t manage to either particularly effectively. Because of this the jury felt that the show has one of the weaker art styles of the nominations. This was disappointing because Yuasa works are often brilliant in their style and direction."
-          },
-          {
-            "id": 21827,
-            "altimg": "",
-            "altname": "",
-            "public": 1,
-            "jury": 7,
-            "writeup": "Most of us agree that Violet Evergarden has top-notch production values. For artstyle, the show benefits greatly for its detailed, and gorgeous settings as Violet goes through several locations for her jobs. It’s one rare production where all the background characters are fully portrayed with their own costumes and figures. Unfortunately, we feel that this level of incredible set pieces, while stand well by its own, don’t add up much much to the narrative or world and are lacking in visual identity. In addition, we are mixed on the use of lighting and filtering. Scenes happening during the nights are often too dark, and the way the show uses and blurry focus lens work for the show’s detriment as they are distracting and unnecessary. It’s a well-executed show, but compare to other shows from this category, it unfortunately doesn’t leave much of lasting impact."
-          },
-          {
-            "id": 100298,
-            "altimg": "",
-            "altname": "",
-            "public": 4,
-            "jury": 8,
-            "writeup": "The art of Megalo Box captures the feel and look of an old anime production from the previous century with its rough lines and old school character designs. The style isn’t just a simple nostalgia gimmick, it’s used efficiently as a tool for world building to sell the poverty filled urban setting of the series. The characters all look unique and recognizable, and while we didn’t find the boxing gears particularly memorable, they certainly established the show’s own identity. Sadly not every aspect of the art was as well utilized. Lighting and other cinematic elements were lackluster in Megalo Box compared to the other nominees on our list and we weren’t pleased with the excessive use of downscaling, which became more and more distracting as time went on and was one of the main reasons why the show ended up below Violet Evergarden. We appreciated Megalo Box’s nostalgic style, but the series wasn’t able to hold our attention throughout the series due to frequently repeating, similar environments and the lack of creativity in its overall execution of the more mundane scenes."
-          }]
+            {
+              "id": 98385,
+              "altimg": "",
+              "altname": "",
+              "public": 5,
+              "jury": 2,
+              "writeup": "Koi wa Ameagari’s attention to detail, composition and lighting makes not just one of the best art styles in the year, but one of the most attentive and carefully detailed works in the medium. \n\nBeing largely set in an urban modern-day environment and featuring realistic art can often mean that a show is lacking in visual identity, choosing detail over style and having a visual presentation that lends itself to less artistic flexibility and less visual expression than something more vibrant or abstract. However, on top of being immensely detailed, Koi wa Ameagari also manages to use this style to its absolute fullest extent through beautiful scenery that sets the tone well, incredible use of shot composition and closeups to make for one of the best examples of ‘show, don’t tell’ this year, and gorgeous style shifts that are used sparingly but beautifully. \n\nKoi wa Ameagari’s attention to detail and usage of visual storytelling is unmatched this year. Not only is it one of the most technically well-executed styles but it’s also used to its fullest extent and manages to stand out among shows going for similar realistic styles. It’s intricate and well thought out which shines through in every part of the visuals. It’s no doubt one of the best uses of detailed realistic art in a long time, but only ends up making second place because the jury preferred and appreciated 3-gatsu no Lion’s visual flexibility, expressiveness, storytelling through aesthetic and unique style just a little more."
+            },
+            {
+              "id": 99748,
+              "altimg": "",
+              "altname": "",
+              "public": 6,
+              "jury": 3,
+              "writeup": "Throughout the series, the tale of Hakumei to Mikochi is described as a “tiny little life in the woods,” a theme that its art style conveys exceptionally well. It truly feels like an animated fairytale storybook with its hand-painted-then-printed looking texture, special paneling effects and stubby character designs. The Jury was charmed by the fun way the scale and proportions of the natural backgrounds and oversized props were used to emphasize the small stature of the world’s elvish inhabitants. Color was also used well throughout the show, making use of both soft, mellow colors for the homes and the cities to instill a delightfully homey feel and vibrant, natural colors of the forest and surrounding naturescapes to emphasize the show’s connection to the woods. What was most frequently praised by us jurors was the sheer level of detail in all of the show’s designs. The city shops are filled with wares, the character designs are full of fun patterns and colors, and little inventions scattered around reveals a lot about how their tiny societies function. However, the Jury found that Hakumei to Mikochi’s art style was perhaps not as unique as the two nominees above it, with some concern that its nature-centric design and forest environments have been done before. Even so, Hakumei to Mikochi’s incredibly charming and storybook style and world-building scenery secures it a very strong third place."
+            },
+            {
+              "id": 100673,
+              "altimg": "",
+              "altname": "",
+              "public": 7,
+              "jury": 4,
+              "writeup": "Hisone to Masotan has a playful art style that was reminiscent of Ghibli or old Disney designs. Character, and dragon, designs are rounded with little to no sharp edges that allow for stylized and fluid animation. These character designs are core to the show’s visual success and appeal because they let the quirks and attitudes of all the characters come forth. The dragons are goofy and act a bit like big lovable dogs and the art style is there to support their affectionate behaviour. If this show was done in a more standard style a lot of the goofier moments would fall flat and Hisone to Masotan would lose almost all of the charm that it does have. The backgrounds were split between the base and the sky. The jury felt that the base background were a bit dull, as military bases often are, but that the art for the skies that the pilots and dragons soar through were beautiful and well composed. In particular, the lighting and clouds for the sky shots were excellent. All of this together made for an anime that was reminiscent of Saturday morning cartoons, which felt fresh in this medium and was a delight to watch."
+            },
+            {
+              "id": 100957,
+              "altimg": "",
+              "altname": "",
+              "public": 8,
+              "jury": 5,
+              "writeup": "While Lupin III Part V doesn't have the most polished production, it oozes with style, stealing 5th place from the nominees below it. This is best represented through its lanky and cool character designs, focusing on extremes, while not to add too much detail, which allow the show to easily animate its cast in an expressive cartoony manner. \n\nThe thick outlines and bold colors on its characters, contrast with the painted backgrounds, which fits the french theme of Part V. This received mixed reception with the jury members, but ended up being counted as a positive, rather than a negative. \n\nLupins biggest flaw lies in its inconsistent use of lighting, which is made even more obvious by the contrasting backgrounds mentioned above. The shot composition manage to capture to stylish charm of Lupin, quite similarly to its older iterations, despite being pretty basic. \n\nLupin III feels like a mix of James Bond and a comedic western heist movie, creating something truly original you don't see in modern anime. The contrast between modern and classic is well represented in the shows art style, but its ends up failing to rob 4th place, due to Hisone & Masotans more polished production."
+            },
+            {
+              "id": 98460,
+              "altimg": "",
+              "altname": "",
+              "public": 3,
+              "jury": 6,
+              "writeup": "Masaaki Yuasa’s works are known for having a very unique style that emphasizes feel over form and Devilman Crybaby continues in this trend. Typically the art styles that he choose to use are very effective for communicating the emotion of the narrative, but Devilman doesn’t quite get there. The jury felt that the art style was, from character designs to backgrounds, sloppy and unrefined. The character designs were very basic and lacked detail, and the backgrounds were acceptable but did little to add to the story. The designs do work well for the animation that was used in the show, but even then it just didn’t impress. Part of this problem stems from Devilman Crybaby being an adaption of a manga written in the 1970s. Unsurprisingly, styles now are radically different than they were then which leads to a conflict when adapting a work from that time. Is it appropriate to use a new style for a beloved manga, or should the director try and stay true to the original work? Devilman Crybaby ended up somewhere in between where it didn’t manage to either particularly effectively. Because of this the jury felt that the show has one of the weaker art styles of the nominations. This was disappointing because Yuasa works are often brilliant in their style and direction."
+            },
+            {
+              "id": 21827,
+              "altimg": "",
+              "altname": "",
+              "public": 1,
+              "jury": 7,
+              "writeup": "Most of us agree that Violet Evergarden has top-notch production values. For artstyle, the show benefits greatly for its detailed, and gorgeous settings as Violet goes through several locations for her jobs. It’s one rare production where all the background characters are fully portrayed with their own costumes and figures. Unfortunately, we feel that this level of incredible set pieces, while stand well by its own, don’t add up much much to the narrative or world and are lacking in visual identity. In addition, we are mixed on the use of lighting and filtering. Scenes happening during the nights are often too dark, and the way the show uses and blurry focus lens work for the show’s detriment as they are distracting and unnecessary. It’s a well-executed show, but compare to other shows from this category, it unfortunately doesn’t leave much of lasting impact."
+            },
+            {
+              "id": 100298,
+              "altimg": "",
+              "altname": "",
+              "public": 4,
+              "jury": 8,
+              "writeup": "The art of Megalo Box captures the feel and look of an old anime production from the previous century with its rough lines and old school character designs. The style isn’t just a simple nostalgia gimmick, it’s used efficiently as a tool for world building to sell the poverty filled urban setting of the series. The characters all look unique and recognizable, and while we didn’t find the boxing gears particularly memorable, they certainly established the show’s own identity. Sadly not every aspect of the art was as well utilized. Lighting and other cinematic elements were lackluster in Megalo Box compared to the other nominees on our list and we weren’t pleased with the excessive use of downscaling, which became more and more distracting as time went on and was one of the main reasons why the show ended up below Violet Evergarden. We appreciated Megalo Box’s nostalgic style, but the series wasn’t able to hold our attention throughout the series due to frequently repeating, similar environments and the lack of creativity in its overall execution of the more mundane scenes."
+            }],
+          "hms": ["Irozuku - Inside the Painting (Ep. 6)", "Pop Team Epic - Hellshake Yano (Ep. 7)", "Fate/Extra Last Encore - Nursery Rhyme's Wonderland (Ep. 6-7)"]
         },
         {
-          "name": "Cinematography",
+          "name": "Best Cinematography",
           "link": "",
           "blurb": "For the cinematography category we pretty much got all the picks we wanted, due to the public vote acting as a sort of tiebreaker for some of our more controversial options. The last spot was contested between Devilman and HisoMaso, with Devilman finally grabbing it at the end. \n\nWhen it came to rankings, we quite quickly identified and separated the top and bottom two from our middle four picks. The jury felt unanimously that both KoiAme and 3-gatsu were exceptional this year when it came to their cinematography, while the middle ones each had their supporters and opponents, and in general were very close to each other. After a lot of debate we arrived at our final ranking. \n\nOverall the jury felt positive when it came to cinematography this year, with a wide variety of styles present on the list. From the extravagant action sequences of Starlight and Gridman, to the subtle storytelling and visual metaphors of KoiAme and Bloom, this year provided something for everyone.",
-          "nominees": [{
+          "nominees": [
+            {
             "id": 98385,
             "altimg": "",
             "altname": "",
@@ -1166,13 +1171,15 @@
               "public": 6,
               "jury": 8,
               "writeup": "In A Place Further Than the Universe (or Sora Yori), the core of the cinematography is showing the transition from boring day-to-day life to an incredible journey to Antarctica. Early in the show, life is bleak and boring; Kimari’s own inaction is reflected in the dim lighting and static, claustrophobic shots. But once the adventure begins, the cinematography starts to focus on the scale of their journey and the framing indicates just how small the girls are compared to everything else. The cities are big and busy, the ship they ride is massive and the sea and sky extend for ages. As the characters visit those wide-open vistas, the camera focuses on the movement through these landscapes. Be it trains, birds, or people, motion becomes a very important motif to the show, including, of course, the three girls running through Shinjuku. \n\nWhile Sora Yori does a good job of setting the big scenes with its cinematography, where it starts to fall short compared to the other nominations is that the character moments and more “slice-of-life” scenes tend to be pretty standard. The other shows featured a lot of the same kind of composition as Sora Yori’s landscapes, but they also managed to include impressive camera work to quietly show off the emotions and motivations of their characters, embracing a more show-don’t-tell fashion than Sora Yori did. Therefore, against the other stronger shows, the jury awarded A Place Further Than the Universe 8th best cinematography of the year."
-            }]
+            }],
+          "hms": ["Attack on Titan S3 - Levi's Alley Chase (Ep. 2)", "HisoMaso - First Flight (Ep. 1)", "Megalobox - After the Rain (Ep. 1)"]
         },
         {
-          "name": "Background Art",
+          "name": "Best Background Art",
           "link": "",
           "blurb": "The jurors in Background Art had the unique right to tackle an often overlooked but just as essential point in media production. Especially because of the way anime has evolved as a visual narrative and as an art form, you can see how the art continues to keep up. In this way we had a fair amount of discussion on how to go about this and ultimately ended up with choices we can all agree upon. Just to name a few of the shows that jurors had discussed. After the Rain was a spectacular choice and often times left us impressed beyond measure. The ability to establish itself through every scene and still by color and style made it a star. Sangatsu delivered an amazing orchestra of professional scenery and cityscape that would make Daniel Burnham jealous. Hakumei to Mikochi allowed us to enter another world and observe the beauty of nature and bask in it. Background art is always such a hard thing to talk about, as art itself is subjective and hard to quantify, especially when you look at the whole year and the amount of talent and time that went into these shows and art. ",
-          "nominees": [{
+          "nominees": [
+            {
             "id": 98385,
             "altimg": "",
             "altname": "",
@@ -1235,13 +1242,15 @@
               "public": 1,
               "jury": 8,
               "writeup": "Coming in at number 1 from the bottom we have Violet Evergarden. Whilst Violet Evergarden showcased KyoAni’s strengths in production yet again, it does appear that whilst it has excelled in other sectors of production, Background Art unfortunately wasn’t its strongest suit. Nevertheless, given the studio’s prowess, it is not a surprise that Violet Evergarden has made it onto our list of 8. Detail is the name of the game as far as background art is considered for Violet Evergarden. Establishing shots are gorgeous to begin with, filled with a great amount of detail that is supported through the use of vibrant colours. There is a wide variety of landscapes that is observed, which includes the mountains, oceans all the way to the cities and its accompanied architecture. Occasionally, shots of the starry skies and the raging battlefields can be seen as well. To the best of its capabilities, this show flaunts its ability to represent the traditional European setting and scenes often reflect well upon the era in which the narrative is set in. However, as a result of the artistic direction to focus upon other visual aspects of the show, background art was ultimately left negatively affected. The use of filters and blurs as part of the show’s attempts to focus on its characters ruins much of the high quality work that has been put into establishing the various backgrounds and scenery. The constant presence of visual effects that interfered with the background negatively serves as the primary cause of this nominee’s placement in this category."
-            }]
+            }],
+          "hms": ["HisoMaso - Storm Scene (Ep. 11)"]
         },
         {
-          "name": "Character Design",
+          "name": "Best Character Design",
           "link": "",
           "blurb": "For 2018, the jurors in Character Design looked at the core focus of production that serves as the foundation to the medium that we all know and love. Ranging from our protagonist all the way to that background character over there, the influence of character design is everywhere. 2018 introduced characters that included dinosaur girls, criminals, mythical creatures all the way to the cells within our body. This general observation is reflected well upon nominations that have been made for this category. Whilst questionable choices were made by the public, the jurors did their very best to provide their insight to present you the shows with the ‘best’ character designs of 2018. It is apparent that when character design is concerned, Hakumei to Mikochi, Hisone to Masotan, Zombieland Saga and KyoAni’s Violet Evergarden represent the new era with remarkable performances across the board. Filled with designs that were creative, detailed and displayed ease of movement, it was a job well done across the board. However it appeared to the jurors that the old guards weren’t going down with a fight. With favourites such as Lupin III and SSSS.Gridman taking centre stage once again, it made for an exciting year in character design. Ultimately, the resurgence of Cardcaptor Sakura brought forward a series that modernises the charm of the original series from 20 years back. With a wide arsenal of outfits as part of a never ending wardrobe, alongside with ingenious designs of the ‘Clear Cards’, this modern take on Cardcaptor Sakura is one that does not fail to impress and serves as the jury’s top pick of 2018. ",
-          "nominees": [{
+          "nominees": [
+            {
             "id": 97881,
             "altimg": "",
             "altname": "",
@@ -1304,13 +1313,15 @@
               "public": 4,
               "jury": 8,
               "writeup": "When Bunny Girl came out in the Fall season it was quickly met with a lot of fanfare. Along with the compelling drama and characters, the character designs played a front and central role in getting fans invested in the show. Especially the likes of characters like Mai and her bunny girl outfit, and Kaede attracted the attention of fans of the show. However despite the fanfare, there were also those who felt the character designs were too bland and blended in with the general muted colors of the show. And while the characters do a good job of being realistic and blending in with the tone of the show, their more muted schemes do make them less distinct. When compared to shows with much more dynamic designs Bunny Girl did not favor as well. They lacked the uniqueness of expressiveness that other top character designs were able to have. And while they were good designs for the show that they were in, on their own they ended up slotting in the 8th slot on our list. "
-            }]
+            }],
+          "hms": ["Hoozuki no Reitetsu - Mythical Creature Designs", "Mitsuboshi Colors - Costume Design", "Osumatsu-san - Expressive Simple Designs"]
         },
         {
-          "name": "Male VA",
+          "name": "Best Male VA",
           "link": "",
           "blurb": "2018 was a fantastic year boasting a great deal of good voice acting performances. On the male side, we saw industry veterans display their talent and give performances that are still fondly remembered even now. With that said, narrowing down these performances to a select 4 was a challenging task for the jury, to say the least. \n\nThe judges were fairly spot on about Mamoru Miyano’s iconic performance being a public vote and they were also fairly certain that their own picks wouldn’t be public voted. When the public nominations were revealed, it had already been decided who the 4 nominations would be from the judges. After the writeups were done, the gap between the jury nominations and 3 of the public nominations was evident while the judges had a clear favourite in Hiroaki Hirata that had consistently been favourable in their discussions. \n\n2017 had Rakugo which has some of the best voice acting in anime and it was always going to be difficult to top that. While 2018 could not reach the same heights that Rakugo did, it brought us a sheer number of good performances both popular among the anime community and noteworthy in technical aspects. We say this every year but once again, 2019 has some tough competition in the voice acting department.",
-          "nominees": [{
+          "nominees": [
+            {
             "id": 98385,
             "altimg": "char/kondou.jpg",
             "altname": "Hiroaki Hirata as Masami Kondou",
@@ -1373,13 +1384,15 @@
               "public": 2,
               "jury": 8,
               "writeup": "One of the most memorable VA performances of Fall 2018 belongs to one Kaito Ishikawa. Between the solid delivery of Sakuta’s witty lines and the portrayal of his underlying smugness and laid back attitude, Ishikawa succeeds in fleshing out a character that very much relies on his performance due in part to the dialogue-heavy nature of *ButaYarou*. However, while it could possibly be a result of lackluster sound direction or the nature of the show's writing, Ishikawa's voice acting did feel a bit repetitive and bland at times. On the other hand, Ishikawa did a fairly good job in the climax of Sakuta's emotional arc and that's worthy of praise. While an argument can be made that it's consistent with his character, the jury felt that other candidates brought more to the table."
-            }]
+            }],
+          "hms": ["Houchuu Ootsuka as Sakutarou Yanagihara (3-Gatsu no Lion S2 Ep. 17)", "Kenjirou Tsuda as Ogata Hyakunosuke (Golden Kamuy Ep. 19)", "Yuuma Uchida as Ash Lynx (Banana Fish Ep. 19)"]
         },
         {
-          "name": "Female VA",
+          "name": "Best Female VA",
           "link": "",
           "blurb": "On the male side, we saw industry veterans and juggernauts re-establish themselves as consistent powerhouses. With most notable performances being high profile VAs, it was interesting to note that the female side was more balanced in terms of VA profiles. \n\nSeveral performances were popular both among the public and the jury so the public vote was very favourable to us, barring Kana Hanazawa being nominated for Shirase in Sora Yori over Hinata Kawamoto in 3-gatsu no Lion. With that being the case, the jury chose to shine light on some of the overlooked performances that particularly stood out. The discussion process here was much more detailed than the male side and it was far more difficult to choose 4 candidates out of the shortlist. \n\nAfter initial write-ups were finished, the top candidates were very evident and after some discussion, the placements were worked out. With all the promising candidates this year, 2018 shone brightly as a year where the industry continued to evolve and we hope to see the results of this evolution as we go into 2019.",
-          "nominees": [{
+          "nominees": [
+            {
             "id": 100673,
             "altimg": "prod/hisomasoed.png",
             "altname": "Misaki Kuno as Hisone Amakasu",
@@ -1442,7 +1455,8 @@
               "public": 7,
               "jury": 8,
               "writeup": "Yui Ishikawa’s portrayal of Violet Evergarden was bound to bring large attention as it was one of Kyoto Animation’s most stellar TV productions yet, and they did deliver. Violet Evergarden is a war machine, *an android devoid of emotions*, that carries out her master’s every order. The series begins with Violet in bed, her stature akin to that of a military dog, still clinging to her android-like past. Her voice is very monotone and devoid of emotions, and straight to the point. The Violet in the beginning is a blank slate and as the series progresses throughout, she also transforms from a robot into a more humane form and Ishikawa’s performance also evolves to match. Even in her robotic-like state you could already see cracks in her persona. When the Major comes up in conversations, Ishikawa’s veneer of stoicism begins to show signs of emotions welling up inside. As the series nears its end, Violet is a whole other being, a human being with actions based on selfish reasons, and her words filled with emotion. As the series is about Violet and her transition from a doll to a human, Ishikawa delivered a performance that sought to best capture that feeling. \nWhen it comes to the Jury verdict, Yui Ishikawa’s performance as Violet Evergarden came in last. We felt that her performance was pretty standard for this kind of character and didn’t deviate much from the norm despite being a good monotone delivery."
-            }]
+            }],
+          "hms": ["Shiori Mikami as Krista Lenz (Attack on Titan S3 Ep. 7)", "Chinatsu Akasaki as Miyu “Fukaziroh” Shinohara (SAOA: GGO Ep. 11)", "Hikaru Akao as Kaoruko \"Kaos\" Moeta (Comic Girls Ep. 10)"]
         },
         {
           "name": "Best Opening",
@@ -1617,10 +1631,11 @@
             }]
         },
         {
-          "name": "Original Soundtrack",
+          "name": "Best Original Soundtrack",
           "link": "",
-          "blurb": "OST’s nominations were comprised of an eclectic variety of styles and genres this year. Tough decisions had to be made even before the final nominations were completed as a few personal choices were cut along the way to finalize the best of the best. This fight gave our jurors the opportunity to explore a unique collection of anime to discover the best of the year. Several seasoned composers returned this year with multiple entries such as Yoshiaki Fujisawa (of *Land of the Lustrous*) with the uplifting, coming of age tale *A Place Further Than the Universe* and the orchestral, theatrical battle royale *Revue Starlight*. New composers as well made names for themselves such as Swedish DJ Rasmus Faber’s summertime jam *Harukana Receive* and solo artist Mabanua’s heavy, hip-hop inspired *Megalo Box*. Ultimately though, veteran composer Kensuke Ushio (of *Ping Pong the Animation* and A *Silent Voice* fame) gloriously returned this year onto our list in the forms of the synthwave fever dream *Devilman Crybaby* and the lilting, atmospheric *Liz and the Blue Bird*. \n\nThroughout the jury’s decision process, focuses such as “usage” and “variety” emerged as key discussion points. We looked for examples of the OST being integrated well into the narrative and scenes, and when it enhanced the show instead of merely supporting it. When a soundtrack faded into the background or began to overuse key tracks, the show naturally began to fall towards the bottom of the list. Though there was minor disagreement, the winner was clear to most of our jurors from the start and the fight for 2nd to 8th place concluded in the following order.",
-          "nominees": [{
+          "blurb": "OST’s nominations were comprised of an eclectic variety of styles and genres this year. Tough decisions had to be made even before the final nominations were completed as a few personal choices were cut along the way to finalize the best of the best. This fight gave our jurors the opportunity to explore a unique collection of anime to discover the best of the year. Several seasoned composers returned this year with multiple entries such as Yoshiaki Fujisawa (of *Land of the Lustrous*) with the uplifting, coming of age tale *A Place Further Than the Universe* and the orchestral, theatrical battle royale *Revue Starlight*. New composers as well made names for themselves such as Swedish DJ Rasmus Faber’s summertime jam *Harukana Receive* and solo artist Mabanua’s heavy, hip-hop inspired *Megalo Box*. Ultimately though, veteran composer Kensuke Ushio (of *Ping Pong the Animation* and A *Silent Voice* fame) gloriously returned this year onto our list in the forms of the synthwave fever dream *Devilman Crybaby* and the lilting, atmospheric *Liz and the Blue Bird*. \n\nThroughout the jury’s decision process, focuses such as “usage” and “variety” emerged as key discussion points. We looked for examples of the OST being integrated well into the narrative and scenes, and when it enhanced the show instead of merely supporting it. When a soundtrack faded into the background or began to overuse key tracks, the show naturally began to fall towards the bottom of the list. Though there was minor disagreement, the winner was clear to most of our jurors from the start and the fight from 3rd to 8th place concluded in the following order.",
+          "nominees": [
+            {
             "id": 100178,
             "altimg": "",
             "altname": "",
@@ -1634,7 +1649,7 @@
               "altname": "",
               "public": 6,
               "jury": 2,
-              "writeup": "Shoujo☆Kageki Revue Starlight’s OST can roughly be divided up into two parts, a more normal OST and an insert song OST. The more normal OST is solid but somewhat traditional. It accomplishes the goals of the show, providing appropriate breadth of expression for the subject matter. It has songs for the slice-of-life-y portions of the everyday lives, songs that underscore the mystery behind the enigmatic giraffe, and songs that well capture the despair often experienced in the immediate vicinity of the revues. Probably the best part of the OST is reproduction, the theme that accompanies the transformation sequence. Featuring a medley of instruments that progressively intensify before being joined by a whispered chorus, it provides an excellent transition between Starlight’s two disparate halves by providing a somewhat otherworldly sound to bridge the two. \n\nAs solid as the instrumental OST for Starlight is, though, what really sets it apart from its competitors, and the reason it easily takes position two is its phenomenal insert tracks. Composed of eleven songs that each feel bursting with identity and sung by the seiyuus in character, these tracks are the gold standard for integrating an OST – the grand ballads not only matched the bombastic tone of the kirin’s revues but also tied into its metanarrative by providing a platform for the girls to express their anxieties and goals that was paralleled by the spectacle of battle. For example, in Revue of Pride, the cinematography enforces Maya’s dominance which works in concert with an overpowering vocal performance to really emphasize the gap in skill between her and Karen. This deft incorporation of the music into the narrative puts it above basically all other entries this year, so it was a pretty easy second place."
+              "writeup": "Shoujo☆Kageki Revue Starlight’s OST can roughly be divided up into two parts, a more normal OST and an insert song OST. The more normal OST is solid but somewhat traditional. It accomplishes the goals of the show, providing appropriate breadth of expression for the subject matter. It has songs for the slice-of-life-y portions of the everyday lives, songs that underscore the mystery behind the enigmatic giraffe, and songs that well capture the despair often experienced in the immediate vicinity of the revues. Probably the best part of the OST is reproduction, the theme that accompanies the transformation sequence. Featuring a medley of instruments that progressively intensify before being joined by a whispered chorus, it provides an excellent transition between Starlight’s two disparate halves by providing a somewhat otherworldly sound to bridge the two.\n\nAs solid as the instrumental OST for Starlight is, though, what really sets it apart from its competitors, and the reason it easily takes position two is its phenomenal insert tracks. Composed of eleven songs that each feel bursting with identity and sung by the seiyuus in character, these tracks are the gold standard for integrating an OST – the grand ballads not only matched the bombastic tone of the kirin’s revues but also tied into its metanarrative by providing a platform for the girls to express their anxieties and goals that was paralleled by the spectacle of battle. For example, in Revue of Pride, the cinematography enforces Maya’s dominance which works in concert with an overpowering vocal performance to really emphasize the gap in skill between her and Karen. This deft incorporation of the music into the narrative puts it above basically all other entries this year, so it was a pretty easy second place.\n"
             },
             {
               "id": 98478,
@@ -1642,7 +1657,7 @@
               "altname": "",
               "public": 7,
               "jury": 3,
-              "writeup": "*3-Gatsu no Lion* offered an exemplary OST that had breadth, individual knockouts, and overall was very suited to its series. Many jurors remarked on the variety. The dramatic pieces drew nearly universal acclaim, while the lighter pieces drew more mixed responses. This variety enabled the OST to be an excellent companion to the show. Many jurors described it as ‘subtle,’ but I would up the ante with ‘surgical.’ Its composition was clearly tailored to fit the show’s very unique and varying moods, and it manages to do so in a way that doesn’t overpower the show it accompanies. \n\nThe OST offered standout individual performances. Hina’s outburst in episode 4 - the synchronization being perfect highlights how tailored the usage was. The scene in episode 16 where Akari confronts Takagi’s mother shows just how bleak the series can feel. But nearly all jurors agreed that the crown jewel was *Burnt Field*, a piece featuring Shakuhachi flute with double-bass and strumming electric guitar that encompasses the desolation and grit of an aged shogi master immaculately. \n\nWhat really elevated this OST was the manner of use – while many OSTs are used to create mood, representing rapidly changing mood is central to *3-Gatsu’s* treatment of depression and anxiety which is central to the work. By using the OST to lead scenes, the series captures wonderfully the unease and whiplash that Rei sometimes feels. \n\nWhile there were criticisms of the OST, such as being poor standalone and having less than stellar light tracks, what really held *3-Gatsu* back was more the quality of the entries above it. Both *Liz to Aoi Tori* and *Starlight* deftly inverwove their OSTs into their narrative to create a work inseparable from the parent production, making it difficult to place *3-Gatsu* above them."
+              "writeup": "*3-Gatsu no Lion* offered an exemplary OST that had breadth, individual knockouts, and overall was very suited to its series. Many jurors remarked on the variety. The dramatic pieces drew nearly universal acclaim, while the lighter pieces drew more mixed responses. This variety enabled the OST to be an excellent companion to the show. Many jurors described it as ‘subtle,’ but I would up the ante with ‘surgical.’ Its composition was clearly tailored to fit the show’s very unique and varying moods, and it manages to do so in a way that doesn’t overpower the show it accompanies. \n\nThe OST offered standout individual performances. Hina’s outburst in episode 4 - the synchronization being perfect highlights how tailored the usage was. The scene in episode 16 where Akari confronts Takagi’s mother shows just how bleak the series can feel. But nearly all jurors agreed that the crown jewel was *Burnt Field*, a piece featuring Shakuhachi flute with double-bass and strumming electric guitar that encompasses the desolation and grit of an aged shogi master immaculately.\n\nWhat really elevated this OST was the manner of use – while many OSTs are used to create mood, representing rapidly changing mood is central to *3-Gatsu’s* treatment of depression and anxiety which is central to the work. By using the OST to lead scenes, the series captures wonderfully the unease and whiplash that Rei sometimes feels.\n\nWhile there were criticisms of the OST, such as being poor standalone and having less than stellar light tracks, what really held *3-Gatsu* back was more the quality of the entries above it. Both *Liz to Aoi Tori* and *Starlight* deftly inverwove their OSTs into their narrative to create a work inseparable from the parent production, making it difficult to place *3-Gatsu* above them."
             },
             {
               "id": 98460,
@@ -1658,7 +1673,7 @@
               "altname": "",
               "public": 8,
               "jury": 5,
-              "writeup": "*Harukana Receive* is the one of the best summertime soundtracks. This beach volleyball-centric sports anime nails the show's  ‘summer vibe’ extremely well. Merengue undertones are scattered throughout with a poppy and energetic flair to give it some extra oomph in laidback or hype moments throughout the show. The dramatic scenes usually have a more serious tone with a darker inflection on most of the cuts than the rest of the OST. There is a decent amount of variation throughout the OST though, and the aforementioned vibe definitely shines through among the rest of the cuts. *Rise* sets the tone of the show in the opening moments while being catchy and memorable on its own. Meanwhile, other tracks like *Yummy Bunny*, *Dinosaur Dig* and *Five-One* create the intensity required for every good sports anime. *Crossing Space* is a track that’s used very well in the climax of the matches. Almost every song on the soundtrack is extremely catchy and fits the matches well, with songs paired to specific characters. Harukana's OST would be perfect to play while driving around a beach town in summer and also when laying out at the beach or the poolside. Given the limits of the show, Faber did a fantastic job with creating an atmosphere that exudes the feeling of summer. While most of the jurors had good things to say about *Harukana Receive*'s soundtrack, the other choices displayed more variety and better timing in their respective shows, enhancing the shows' narratives to a greater degree."
+              "writeup": "*Harukana Receive* is the one of the best summertime soundtracks. This beach volleyball-centric sports anime nails the show's  ‘summer vibe’ extremely well. Merengue undertones are scattered throughout with a poppy and energetic flair to give it some extra oomph in laidback or hype moments throughout the show. The dramatic scenes usually have a more serious tone with a darker inflection on most of the cuts than the rest of the OST. There is a decent amount of variation throughout the OST though, and the aforementioned vibe definitely shines through among the rest of the cuts. *Rise* sets the tone of the show in the opening moments while being catchy and memorable on its own. Meanwhile, other tracks like *Yummy Bunny*, *Dinosaur Dig* and *Five-One* create the intensity required for every good sports anime. *Crossing Space* is a track that’s used very well in the climax of the matches. Almost every song on the soundtrack is extremely catchy and fits the matches well, with songs paired to specific characters. Harukana's OST would be perfect to play while driving around a beach town in summer and also when laying out at the beach or the poolside. Given the limits of the show, Faber did a fantastic job with creating an atmosphere that exudes the feeling of summer. While most of the jurors had good things to say about *Harukana Receive*'s soundtrack, the other choices displayed more variety and better timing in their respective shows, enhancing the shows' narratives to a greater degree.\n"
             },
             {
               "id": 100298,
@@ -1666,7 +1681,7 @@
               "altname": "",
               "public": 1,
               "jury": 6,
-              "writeup": "Megalo Box’s OST is quite different in its implementation compared to the other entries in this category, taking the equally stunning route of utilising the OST as a backdrop and tone setter for the entire scene, compared to the more subtle and integrated tracks of say Liz an the Blue Bird. Tracks such as ‘MEGALOBOX’ and character themes like The theme of Yuri and The theme of Gansaku Nanbu become iconic in their usage as they play during their respective character driven scenes, highlighing the importance of their actions. The raps all describe the tone and theme of the show, from the fast paced ‘The Beast’ and ‘Gearless Joe’ to the mellow ‘Slum City’ giving sense to the emotions and feelings of Team Nowhere, in particular Sachio. \n\nMore direct action tracks such as ‘Get up’ and ‘Battlefield’ and those of inspiration and more obvious chill such as ‘Drive’ and ‘Slum’ respectively serve their purpose incredibly well in letting the audience know what direction the scene will take with either a simply hype or relaxed tone. \n\nMegalo’s OST might be obvious and straightforward, but the incredible quality of both tracks and usage allow it to go above and beyond most other anime, leaving behind a distinctly memorable and fun OST once you complete the show."
+              "writeup": "Megalo Box’s OST is quite different in its implementation compared to the other entries in this category, taking the equally stunning route of utilising the OST as a backdrop and tone setter for the entire scene, compared to the more subtle and integrated tracks of say Liz an the Blue Bird. Tracks such as ‘MEGALOBOX’ and character themes like The theme of Yuri and The theme of Gansaku Nanbu become iconic in their usage as they play during their respective character driven scenes, highlighting the importance of their actions. The raps all describe the tone and theme of the show, from the fast paced ‘The Beast’ and ‘Gearless Joe’ to the mellow ‘Slum City’ giving sense to the emotions and feelings of Team Nowhere, in particular Sachio. \n\nMore direct action tracks such as ‘Get up’ and ‘Battlefield’ and those of inspiration and more obvious chill such as ‘Drive’ and ‘Slum’ respectively serve their purpose incredibly well in letting the audience know what direction the scene will take with either a simply hype or relaxed tone.\nMegalo’s OST might be obvious and straightforward, but the incredible quality of both tracks and usage allow it to go above and beyond most other anime, leaving behind a distinctly memorable and fun OST once you complete the show.\n"
             },
             {
               "id": 21827,
@@ -1682,8 +1697,9 @@
               "altname": "",
               "public": 4,
               "jury": 8,
-              "writeup": "*Sora Yori*'s OST is one that generally works behind the scenes with little focus on it. It concentratesfocuses on enhancing eachthe scenes without demanding the attention of the audience. Writing good general day- to- day positive music is hard, but the show manages to capture it well with both a fairly strong musical identity and a fittingn atmosphere matching the show. The music feels hard- working and motivated, which is what the show is about; working hard and doing something a little crazy to achieve your dreamssomething amazing. \n\nThe main criticisms that held it back came in two parts. First, was that it was felt to be too generally unnoteworthy with the majority of tracks felt generally unnoteworthy, tracks not really standing out as amazing or memorable. Second, Tthe other was the usage of insert tracks felt, particularly of the insert trackslackluster. Towards the latter second half of the show, the emotional climaxes started coming and the soundtrack took the route of piling on insert songs. They began to feel a little overplayed and insert songs are generally a cheap and easy way of creating emotion in the first place. The show would've have benefitedbenifited from more uniquely written music for each of these occasions instead of relying on inserts."
-            }]
+              "writeup": "*Sora Yori*'s OST is one that generally works behind the scenes with little focus on it. It concentrates on enhancing each scene without demanding the attention of the audience. Writing good day-to-day positive music is hard, but the show manages to capture it well with both a fairly strong musical identity and a fitting atmosphere. The music feels hard-working and motivated, which is what the show is about; working hard and doing something a little crazy to achieve your dreams. \n\nThe main criticisms that held it back came in two parts. First, the majority of tracks felt generally unnoteworthy, not really standing out as amazing or memorable. Second, the usage of insert tracks felt particularly lackluster. Towards the latter half of the show, the emotional climaxes started coming and the soundtrack took the route of piling on insert songs. They began to feel a little overplayed and are generally a cheap and easy way of creating emotion in the first place. The show would have benefited from more uniquely written music for each of these occasions instead of relying on inserts.\n"
+            }],
+          "hms": ["Koi wa Ameagari no You ni - Ref:rain (Instrumental) (Ep. 7)","Release the Spyce - BBBBB★ベイビッ!!", "Yuru Camp△ - Field Time (Chit Chat)"]
         }
       ]
     },

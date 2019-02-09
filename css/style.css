@@ -173,6 +173,43 @@ html, body{
     background: transparent;
 }
 
+.awardHonorableMentions {
+
+}
+
+.awardHonorableMentions h4{
+    text-align: center;
+    color: #DCE6F2;
+    padding: 16px;
+    font-size: 20px;
+}
+
+.awardHonorableMentions h4:after{
+    height: 1px;
+    width: 30%;
+    content:'';
+
+    display: block;
+    margin: 20px auto 5px;
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #DCE6F2, rgba(0, 0, 0, 0));
+}
+
+.awardHonorableMentions ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+    list-style: none;
+}
+
+.awardHonorableMentions ul li{
+    flex-grow: 1;
+    padding: 2px;
+    color: #DCE6F2;
+}
+
 .categoryHeader{
     color: #E8AA25;
     font-size: 36px;

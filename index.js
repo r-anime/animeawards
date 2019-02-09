@@ -127,6 +127,12 @@ Vue.component('awards-category', {
                         </div>
                     </div>
                 </div>
+                <div class="awardHonorableMentions" v-if="award.hms">
+                    <h4>Honorable Mentions</h4>
+                    <ul>
+                        <li v-for="hm in award.hms">{{hm}}</li>
+                    </ul>
+                </div>
             </div>
         </div>
     `
