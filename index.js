@@ -515,6 +515,7 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
     created () {
         //console.log('hi im created');
         this.loadData(2018);
+        viewport.setAttribute('content', 'width=1024');
     },
     template: `
         <div id="animeawardsContainer">

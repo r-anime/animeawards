@@ -10,6 +10,8 @@
 }
 
 html, body{
+    width: 100%;
+    height: 100%;
     background-color: #1B1E25;
     font-family: 'Century Gothic', 'CenturyGothic', 'Nanum Gothic', sans-serif;
 }
@@ -65,7 +67,6 @@ html, body{
 
 #awardTitle img.headerTitle{
     height: 155px;
-    width: 760px;
     text-align:center;
     position: absolute;
     bottom: 0;
@@ -643,4 +644,36 @@ input:checked + .categorySwitchSlider:before {
 .component-fade-enter, .component-fade-leave-to
     /* .component-fade-leave-active below version 2.1.8 */ {
     opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+    body, html{
+        overflow-x: hidden;
+    }
+
+    #contentContainer{
+        width: auto;
+        padding: 0;
+    }
+
+    #awardSectionNav{
+        flex-direction: column;
+    }
+
+    #awardTitle{
+        height: 100px;
+    }
+
+    #awardTitle img.headerTitle{
+        height: 77px;
+        width: 380px;
+    }
+
+    #awardTitle img.headerIcon{
+        width: 150px;
+    }
+
+    .awardsWelcomeText{
+        display: none;
+    }
 }
