@@ -264,6 +264,13 @@ html, body{
     letter-spacing: 2px;
     text-align: center;
     margin: 30px 10px;
+    cursor: pointer;
+    transition: color 300ms;
+}
+
+.categoryHeader:hover{
+    color: #e8e47c;
+    cursor: pointer;
 }
 
 .categoryWinnerContainer{
@@ -471,6 +478,30 @@ footer a{
     padding: 40px;
     scrollbar-width: thin;
     overflow: auto;
+}
+
+.modalBody::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modalBody::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.modalBody::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 20px;
+}
+
+.modalBodyStats {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.modalBodyStats td{
+    padding: 4px 30px;
 }
 
 .modalBodyTitle{
