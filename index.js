@@ -242,7 +242,7 @@ Vue.component('category-item-image', {
         }
     },
     template: `
-        <div class="categoryItemImage" :style="backgroundStyle" @click="showWriteUp">
+        <div class="categoryItemImage" :title="this.$root.getTitle(this.nominee.id)" :style="backgroundStyle" @click="showWriteUp">
 
         </div>
     `
@@ -271,6 +271,9 @@ Vue.component('modal', {
             else {
                 return `background-image: url(img/${this.nom.id}.jpg)`;
             }
+        },
+        otherNoms(){
+            return this.$root.getOtherNoms(this.nom.id);
         }
     },
     template: `
@@ -299,6 +302,12 @@ Vue.component('modal', {
                                 </div>                                                  
                             </div>
                             <div class="modalBodyText" v-html="this.$root.getMarkDown(this.nom.writeup)">
+                            </div>
+                            <div class="modalBodyText" v-if="otherNoms.length > 0">
+                                <h4>All Nominations: </h4>
+                                <ul>
+                                    <li v-for="txt in otherNoms">{{txt}}</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -359,7 +368,7 @@ Vue.component('nominee-name', {
 Vue.component('awards-footer', {
     template: `
         <footer>
-			<h2><router-link :to="{ name: 'home'}">Special thanks to the mods, volunteers, and community of r/anime!</router-link></h2>
+			<h2><router-link :to="{ name: 'thanks'}">Special thanks to the mods, volunteers, and community of r/anime!</router-link></h2>
 		</footer>
     `
 });
@@ -436,29 +445,55 @@ const AwardsFAQ = {
 };
 
 const AwardsThanks = {
+    computed:{
+        content(){
+            return this.$root.getMarkDown("## Acknowledgements\n" +
+                "\n" +
+                "\n" +
+                "We’d like to start by thanking /u/pandavengerX, /u/geo1088, and /u/commandersevan for their work in creating this site and for putting up with unending changes, edits, and last-minute requests, and we thank /u/totalenlo for his assistance.\n" +
+                "\n" +
+                "We’d like to thank /u/geo1088 specifically for coding the website we used for the nomination process - it was incredibly useful and quite stylish beside.\n" +
+                "\n" +
+                "We’d like to thank all of our livestream guests for agreeing to be a part of this year’s most ambitious endeavor. You all have plenty of your own work but you were willing help make our results discussion more varied and insightful. We hope it was a pleasant rather than taxing experience!\n" +
+                "\n" +
+                "We’d like to thank /u/drjwilson specifically for being willing to take up the monumental task of livestream host, along with all of the coordinating, behind-the-scenes work, and stamina that the role involves. The fact that he is also rumored to be the WORLD FAMOUS YOUTUBER KAMIMASHITA is just icing on the cake.\n" +
+                "\n" +
+                "We’d like to thank all of the people who put work into the production of the livestream, especially /u/commandersevan - without them this would not have been worth putting on. \n" +
+                "Our editors were: /u/zhongzhen93, /u/clerikal, /u/jonlxh, /u/nickknight8, /u/irvom, and /u/commandersevan.\n" +
+                "\n" +
+                "We’re thankful to the moderators of the r/anime subreddit for their support and in many cases active cooperation with something as involved as the awards. Thank you to /u/shaking807, /u/geo1088, /u/fetchfrosh, /u/randomredditorwithno, /u/spiranix, /u/aboredcompscistudent, /u/basedbecker, /u/bainos, and the rest of the mod team this last year!\n" +
+                "\n" +
+                "We’re also very appreciative of the users who committed to hosting this year. Planning for the awards has an almost year-long process, and once the jurors are invited it only becomes more intense. From writing threads, evaluating applications, and assigning categories to moderating discussion, interfacing between different groups of people, and everything else, being a host took a lot of work. Thank you /u/codelelouche, /u/drjwilson, /u/malacostracaflame, /u/metasoshi9, /u/mpp00, /u/pandavengerx, /u/patureau, /u/ralon17, /u/reyae, /u/\\_\\_u_wot_m8\\_\\_, and /u/vaxivop.\n" +
+                "\n" +
+                "The true soul of the r/Anime Awards is the evaluation of each year’s anime, and from the jury side of things it is not an easy task. We want to thank all of the 70+ jurors who signed up to watch, discuss, and write about the enormous number of selections available this year. It was a blast to work with all of them and we hope to see some familiar faces apply again next year! \n" +
+                "\n" +
+                "Finally we would also like to thank you, the public!  Without your support these awards would not be able to come to fruition, and you are both the participants and the audience for whom these awards are run. We hope you join us on this journey again next year!\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "\n" +
+                "Complete Livestream Guest List (in order of appearance): \n" +
+                "\n" +
+                "YonkouProductions, Pause and Select, AnimePhilosopher, Aleczandxr, aTonofBacon, basedbecker, KevinNyaa, Zeria, Ember Reviews, MozillaFennekin (Lux), ShaKing807, Mathwiz97, Hiding in Public, PhenomSage, RogerSmith2004, TheCanipaEffect, SubtitledAnime, FateSteelTaylor, Kor Reviews, ThePedanticRomantic, LilyPichu\n" +
+                "\n" +
+                "Complete List of Jurors\n" +
+                "\n" +
+                "/u/13_thieves, /u/alwayslonesome, /u/anarchycupcake, /u/animestuck, /u/atargetfinderscrub, /u/aztecopi, /u/bagglewaggle, /u/bamario, /u/bconeill, /u/biochemrs, /u/brown_man_bob, /u/cacophon, /u/cadisrai, /u/chrispy294, /u/clerikal, /u/coronelpanic, /u/combo33, /u/cryzzalis, /u/deafnesss, /u/doctorwhoops, /u/epictroll27, /u/escolyte, /u/felistar, /u/fircoal, /u/frenziedhero, /u/goukaryuu, /u/hamptonwooster, /u/irvom, /u/isrozzis, /u/jonlxh, /u/kaverik, /u/keeptrackoftime, /u/kokoroakechi, /u/maelstrommusic, /u/mage_of_shadow, /u/master_of_ares, /u/mcadylons, /u/\\_\\_mekakucity, /u/miidas-92, /u/mrmonday1123, /u/narneisgood, /u/nbvictory, /u/nickknight8, /u/orange-shades, /u/oyooy, /u/perfectpublican, /u/pewface1234567, /u/raging_sean, /u/rhinn0, /u/rudygnuj, /u/rusticks, /u/sacktheavenger, /u/sfafreak, /u/sirtreehugger, /u/schinco, /u/scooll5, /u/snarfalopagus, /u/spareumbrella, ,/u/superstarfox64, /u/thechosenapiks, /u/theleux, /u/tigaisbae, /u/tigerk3, /u/tipsly, /u/tombeet, /u/totalenlo, /u/vektor_, /u/weejona, /u/wheatsquares33, /u/win32error, /u/xloltenshi, /u/zelosis\n" +
+                "\n" +
+                "\n" +
+                "Message on Mental Health\n" +
+                "\n" +
+                "The awards are a fun time, but we want to get serious for a bit. There are many reasons to watch anime, whether you're drawn in by the unique storylines, amazing visuals, or the communities that gather around it. Unfortunately anime can also serve as an escape for many facing mental illness or depression. We would like to acknowledge all of those struggling with their mental health, and commemorate a friend and former juror.\n" +
+                "\n" +
+                "\n" +
+                "In memory of 5teve7\n");
+        }
+    },
     template: `
         <div class="awardsSplashBody">
             <div id="contentContainer" class="awardsSplashContent">
-                <div class="awardsWelcomeText">
-                    <h1>Special Thanks</h1>
-                    <p>
-                        Welcome, one and all, to the 2018 r/Anime Awards results! Over the past few months we've laid the groundwork for our annual selection of the best shows of the year. We've recruited our jurors, cruelly subjected them to innumerable episodes of anime, and simultaneously opened it up to you, the community of /r/anime. At long last, we present the fruits of our collective labor!
-                    </p>
-                    <p>
-                        This site contains all of the info about the winners and rankings for the 27 award categories featured this year. These are separated into over-arching category groups: genre awards, character awards, production awards, and main awards. On each of these pages you will find the winner and runners-up for each category, as well as a slider with which you can compare the results of the community vote to the rankings awarded by the category's jury.
-                    </p>
-                    <p>
-                        For more detailed result statistics and other info, check out this [reddit thread].
-                    </p>
-                    <p>
-                        To watch a copy of the livestream in which we revealed and discussed the results with guests, click [here].
-                    </p>
-                    <p>
-                        For answers to commonly asked questions about our process, check out the [FAQ].
-                    </p>
-                    <p>
-                        With any other comments or questions, contact us at redditanimeawards@gmail.com
-                    </p>
+                <div class="awardsWelcomeText" v-html="content">
+                    
                 </div>
             </div>
         </div>        
@@ -580,6 +615,34 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
         },
         getMarkDown(txt){
             return MarkDownIt.render(txt);
+        },
+        getOtherNoms(id){
+            let retArry = [];
+            let title = this.getTitle(id);
+
+            for (let i = 0; i < this.sections.length; i++){
+                let section = this.sections[i];
+                for (let j = 0; j < section.awards.length; j++){
+                    let award = section.awards[j];
+                    for (let k = 0; k < award.nominees.length; k++){
+                        let nom = award.nominees[k];
+                        if (id === nom.id){
+                            let retVal = "";
+                            if (nom.altname !== ""){
+                                retVal += nom.altname;
+                            }
+                            else{
+                                retVal += title;
+                            }
+                            retVal += " in " + award.name; //(P: " + nom.public + ")[J: " + nom.jury + "]
+                            console.log(retVal);
+                            retArry.push(retVal);
+                        }
+                    }
+                }
+            }
+
+            return retArry;
         }
     },
     created () {

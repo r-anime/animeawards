@@ -570,6 +570,15 @@ footer a{
     line-height: 1.5;
 }
 
+.modalBodyText ul{
+    padding: 10px 25px;
+}
+
+.modalBodyText h4{
+    padding: 10px;
+    font-size: 20px;
+}
+
 .modalBodyCredits a{
     color: #a6bbd6;
     text-decoration: none;
