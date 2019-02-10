@@ -295,7 +295,7 @@ Vue.component('modal', {
                                     <span class="modalRankingJuryIcon"></span>Jury {{this.getPrettyRank(this.nom.jury)}}
                                 </div>      
                                 <div class="modalRankingPublic">
-                                    <span class="modalRankingPublicIcon"></span>Community Choice {{this.getPrettyRank(this.nom.public)}}
+                                    <span class="modalRankingPublicIcon"></span>Community Choice {{this.getPrettyRank(this.nom.public)}} ({{this.nom.percent}}%)
                                 </div>                                                  
                             </div>
                             <div class="modalBodyText" v-html="this.$root.getMarkDown(this.nom.writeup)">
