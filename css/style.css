@@ -448,7 +448,7 @@ footer a{
     display: flex;
     flex-direction: row;
     width: 960px;
-    height: 560px;
+    height: 70vh;
     margin: 0px auto;
     background: transparent no-repeat center/cover;
     background-size: 0;
