@@ -359,7 +359,7 @@ Vue.component('nominee-name', {
 Vue.component('awards-footer', {
     template: `
         <footer>
-			<h2><router-link :to="{ name: 'thanks'}">Special thanks to the mods, volunteers, and community of r/anime!</router-link></h2>
+			<h2><router-link :to="{ name: 'home'}">Special thanks to the mods, volunteers, and community of r/anime!</router-link></h2>
 		</footer>
     `
 });
