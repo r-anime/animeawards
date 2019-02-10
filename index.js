@@ -460,6 +460,7 @@ const AwardsThanks = {
                 "\n" +
                 "We’d like to thank all of the people who put work into the production of the livestream, especially /u/commandersevan - without them this would not have been worth putting on. \n" +
                 "Our editors were: /u/zhongzhen93, /u/clerikal, /u/jonlxh, /u/nickknight8, /u/irvom, and /u/commandersevan.\n" +
+		"And a special thanks to  /u/steamytomato for making the cute artwork of the anime awards snoo.\n" +			  
                 "\n" +
                 "We’re thankful to the moderators of the r/anime subreddit for their support and in many cases active cooperation with something as involved as the awards. Thank you to /u/shaking807, /u/geo1088, /u/fetchfrosh, /u/randomredditorwithno, /u/spiranix, /u/aboredcompscistudent, /u/basedbecker, /u/bainos, and the rest of the mod team this last year!\n" +
                 "\n" +
