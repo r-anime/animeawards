@@ -45,7 +45,7 @@ html, body{
 
 /* Content Headers */
 #animeawardsContainer{
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -53,6 +53,7 @@ html, body{
 #contentContainer{
     margin: 0 auto;
     width: 800px;
+    padding-bottom: 30px;
     flex-grow: 1;
 }
 
@@ -94,7 +95,7 @@ html, body{
 }
 
 .awardsWelcomeText{
-    color: #DCE6F2;
+    color: #a6bbd6;
     flex-grow: 3;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 30px;
@@ -107,6 +108,10 @@ html, body{
 
 .awardsWelcomeText p{
     padding: 10px;
+}
+
+.awardsWelcomeText a{
+    color: #a6bbd6;
 }
 
 .awardsSplashContainer{
@@ -417,6 +422,7 @@ footer{
     color: #DCE6F2;
     padding: 16px;
     margin-top: 48px;
+    bottom: 0;
 }
 
 footer a{
@@ -547,6 +553,16 @@ footer a{
     padding: 10px;
     font-size: 15px;
     line-height: 1.5;
+}
+
+.modalBodyCredits a{
+    color: #a6bbd6;
+    text-decoration: none;
+}
+
+.modalBodyCredits{
+    margin-top: 20px;
+    padding: 10px;
 }
 
 /*

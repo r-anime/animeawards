@@ -24,7 +24,7 @@ Vue.component('awards-section', {
         <div :id="slug" class="awardSectionContainer">
             <div class="awardSectionHeader">
                 <div class="sectionIconContainer"><img class="sectionIcon" :alt="section.name" :src="section.icon" /></div>
-                <h1 class="sectionHeader">{{section.name}}</h1>
+                <h1 class="sectionHeader">{{section.name}} Awards</h1>
                 <div
                     v-if="typeof section.blurb === 'string'"
                     class="awardSectionBlurb"
@@ -313,6 +313,9 @@ Vue.component('modal-category', {
         close: function () {
             this.$emit('close');
         },
+        getReddit(name){
+            return "http://reddit.com" + name;
+        }
     },
     template: `
          <transition name="modal">
@@ -326,6 +329,14 @@ Vue.component('modal-category', {
                             <div class="modalBodyText" v-if="this.category.blurb" v-html="this.$root.getMarkDown(this.category.blurb)">
                             </div>
                             <div class="modalBodyStats" v-if="this.category.table" v-html="this.$root.getMarkDown(this.category.table)">
+                            </div>
+                            <div class="modalBodyCredits">
+                                <p>
+                                    Jurors: 
+                                    <span v-for="juror in this.category.jurors">
+                                        <a :href="getReddit(juror)">{{juror}}, </a>
+                                    </span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -348,7 +359,7 @@ Vue.component('nominee-name', {
 Vue.component('awards-footer', {
     template: `
         <footer>
-			<h2>Special thanks to the mods, volunteers, and community of <a href="https://reddit.com/r/anime">r/anime!</a></h2>
+			<h2><router-link :to="{ name: 'thanks'}">Special thanks to the mods, volunteers, and community of r/anime!</router-link></h2>
 		</footer>
     `
 });
@@ -373,6 +384,63 @@ const AwardsSplash = {
                 </div>
                 <div class="awardsWelcomeText">
                     <h1>Welcome!</h1>
+                    <p>
+                        Welcome, one and all, to the 2018 r/Anime Awards results! Over the past few months we've laid the groundwork for our annual selection of the best shows of the year. We've recruited our jurors, cruelly subjected them to innumerable episodes of anime, and simultaneously opened it up to you, the community of /r/anime. At long last, we present the fruits of our collective labor!
+                    </p>
+                    <p>
+                        This site contains all of the info about the winners and rankings for the 27 award categories featured this year. These are separated into over-arching category groups: genre awards, character awards, production awards, and main awards. On each of these pages you will find the winner and runners-up for each category, as well as a slider with which you can compare the results of the community vote to the rankings awarded by the category's jury.
+                    </p>
+                    <p>
+                        For more detailed result statistics and other info, click the name of the award.
+                    </p>
+                    <p>
+                        To watch a copy of the livestream in which we revealed and discussed the results with guests, click <a href="https://www.twitch.tv/dr_jwilson">here</a>.
+                    </p>
+                    <p>
+                        With any other comments or questions, contact us at redditanimeawards@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>        
+    `
+};
+
+const AwardsFAQ = {
+    template: `
+        <div class="awardsSplashBody">
+            <div id="contentContainer" class="awardsSplashContent">
+                <div class="awardsWelcomeText">
+                    <h1>Frequently Asked Questions</h1>
+                    <p>
+                        Welcome, one and all, to the 2018 r/Anime Awards results! Over the past few months we've laid the groundwork for our annual selection of the best shows of the year. We've recruited our jurors, cruelly subjected them to innumerable episodes of anime, and simultaneously opened it up to you, the community of /r/anime. At long last, we present the fruits of our collective labor!
+                    </p>
+                    <p>
+                        This site contains all of the info about the winners and rankings for the 27 award categories featured this year. These are separated into over-arching category groups: genre awards, character awards, production awards, and main awards. On each of these pages you will find the winner and runners-up for each category, as well as a slider with which you can compare the results of the community vote to the rankings awarded by the category's jury.
+                    </p>
+                    <p>
+                        For more detailed result statistics and other info, check out this [reddit thread].
+                    </p>
+                    <p>
+                        To watch a copy of the livestream in which we revealed and discussed the results with guests, click [here].
+                    </p>
+                    <p>
+                        For answers to commonly asked questions about our process, check out the [FAQ].
+                    </p>
+                    <p>
+                        With any other comments or questions, contact us at redditanimeawards@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>        
+    `
+};
+
+const AwardsThanks = {
+    template: `
+        <div class="awardsSplashBody">
+            <div id="contentContainer" class="awardsSplashContent">
+                <div class="awardsWelcomeText">
+                    <h1>Special Thanks</h1>
                     <p>
                         Welcome, one and all, to the 2018 r/Anime Awards results! Over the past few months we've laid the groundwork for our annual selection of the best shows of the year. We've recruited our jurors, cruelly subjected them to innumerable episodes of anime, and simultaneously opened it up to you, the community of /r/anime. At long last, we present the fruits of our collective labor!
                     </p>
@@ -431,7 +499,7 @@ const AwardsFull = {
     template: `
         <div id="contentContainer">
             <div id="awardTitle">
-                <img class="headerIcon" alt="/r/animeawards 2018" src="img/assets/titlecard.jpg" />
+                <img class="headerTitle" alt="/r/animeawards 2018" src="img/assets/titlecard.jpg" />
             </div>
             <awards-section v-for="section in this.$root.sections"
                 :section="section"
@@ -445,6 +513,8 @@ const AwardsFull = {
 const routes = [
     { path: '/', name: "home", component: AwardsSplash},
     { path: '/full', name: "full", component: AwardsFull},
+    { path: '/faq', name: "faq", component: AwardsFAQ},
+    { path: '/thanks', name: "thanks", component: AwardsThanks},
     { path: '/:slug', name: "section", component: AwardsSection, props: true }
 ];
 const router = new VueRouter({
@@ -515,7 +585,6 @@ const app = new Vue({ // eslint-disable-line no-unused-vars
     created () {
         //console.log('hi im created');
         this.loadData(2018);
-        viewport.setAttribute('content', 'width=1024');
     },
     template: `
         <div id="animeawardsContainer">
