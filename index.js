@@ -403,7 +403,7 @@ const AwardsSplash = {
                         For more detailed result statistics and other info, click the name of the award.
                     </p>
                     <p>
-                        To watch a copy of the livestream in which we revealed and discussed the results with guests, click <a href="https://www.twitch.tv/dr_jwilson">here</a>.
+                        To watch a copy of the livestream in which we revealed and discussed the results with guests, click <a href="https://youtu.be/xcMl8y6qqv8">here</a>.
                     </p>
                     <p>
                         With any other comments or questions, contact us at redditanimeawards@gmail.com
